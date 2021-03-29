@@ -1,0 +1,35 @@
+/* Stylesheet for the "press-coverage" block */
+.press-coverage {
+  background: #fafafa;
+  min-height: 45vh;
+  width: 15vw;
+}
+@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
+.press-coverage {
+  min-height:30vh;
+} 
+}
+.press-coverage img {
+  display: block;
+  max-height: 5vh;
+  width: auto;
+  background: #fafafa;
+  padding: 5px;
+  margin-bottom: 3vh;
+}
+.press-coverage a:hover img {
+  background: #f0f0f0;
+}
+@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1) {
+  .press-coverage {
+    width: 90vw;
+  }
+  .press-coverage img {
+    width: 60vw;
+    height: auto;
+  }
+  .press-coverage a {
+    width: 60vw;
+    height: auto;
+  }
+}

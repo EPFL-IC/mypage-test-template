@@ -1,0 +1,121 @@
+/* This stylesheet is for the publications popups, I won't recommand you to touch the code, but if you really want, you can */
+
+.close {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  text-decoration: none;
+  color: #333;
+  order: 2;
+  align-self: flex-start;
+  justify-self: flex-end;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 2vh;
+  left: 95vw; 
+  right: 5vw;
+}
+.close:hover {
+  color: #8A887C;
+}
+.popup h1 {
+  height: 8vh;
+  width: 90vw;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.popup p {
+  align-self: flex-start;
+  justify-self: center;
+  order: 3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 80vw;
+  font-size: 1.3em;
+  columns: 2;
+}
+.popup img {
+  width: 35vw;
+  height: auto;
+  margin: 10px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 700ms;
+  visibility: hidden; 
+  z-index:25;
+  transition: .5s;
+}
+.buttons-publications {
+  break-after: always;
+  width: 100vw;
+}
+.buttons-publications > button:first-of-type {
+  background: url();
+}
+.buttons-publications > * {
+  background: none;
+  border: #242424 1px solid;
+  margin-left: 0.4vw;
+}
+.buttons-publications > *:hover {
+  border: #ff0000 1px solid;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  transform: translateY(-200vh);
+  overflow: scroll;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  transition: .5s;
+  transform: translateY(200vh);
+}
+@media handheld, (max-aspect-ratio: 1/1 ), (max-width: 940px) {
+  .content {
+    padding: 0;
+    width: 100vw;
+  }
+  .popup p {
+    width: 90vw;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    columns: 1;
+  }
+  .popup img {
+    width: 85vw;
+  }
+  .popup h1 {
+    margin: 5vw;
+    font-size: 1.3em;
+    width: 80vw;
+    font-weight: bold; 
+  }
+  .close {
+    font-size: 5em;
+  }
+  .buttons-publications {
+    margin: 3vh 0 3vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+  .buttons-publications button {
+    padding: 10px;
+  }
+  .close {
+    left: 85vw;
+    font-size: 4em;
+    width: auto;  
+  }

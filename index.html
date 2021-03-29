@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Student pages demo</title>
+	<!-- Title of your page -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="blocks\publications.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\about.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\awards.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\career.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\press-coverage.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\projects.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\z-edit-at-your-own-risk_publications-popup.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\z-edit-at-your-own-risk_projects-read-more.css" rel="stylesheet" type="text/css" />
+	<link href="fixed.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+</head>
+
+<body>
+	<header id="header" class="header">
+		<a href="https://epfl.ch">
+			<img src="img/fixed/EPFL_Logo_Digital_RGB_PROD.png" id="epflLogo">
+		</a>
+		<div id="backgroundProfil"></div>
+		<img src="img\fixed\photo_profil.png" id="profilPicture">
+		<!-- Your Photo -->
+		<h2>John Doe</h2> 
+		<!-- Your name -->
+		<div id="mainInfos">
+			<a>
+				<img id="facultyLogo" src="img\fixed\epflFacultyLogo.png">
+			</a>
+			<p>
+				<strong>Research Scientist</strong> at <a href="https://www.epfl.ch/labs/chili/">Computer-Human Interaction Lab for Learning & Instruction</a> 
+					<!-- Your title and lab -->
+			</p>
+			<div id="separateur"></div>
+			<div id="contact"> <a href="mailto:john.doe@epfl.ch">John Doe</a> 
+				<!-- Name and email address --> <a href="tel:+41791234567">+41 79 123 45 67</a> 
+				<!-- Tel --> <a href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> 
+				<!-- Location in campus --> <a href="https://www.epfl.ch/labs/chili/contact/">EPFL, IC, CHILI,<wbr> Station 14 <br> CH 1015 Lausanne <wbr> Switzerland</a> 
+				<!-- Postal address -->
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 about">
+				<!-- Write some lines about you, your experiences and everything you want -->
+				<h3>About</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, maxime illo! Quidem adipisci ipsam iste quo? Nihil ullam ex harum modi, exercitationem debitis, at doloremque ratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eumratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eumratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eum libero.</p>
+			</div>
+			<div class="col-md-2 publications-recent">
+				<!-- This block is a spotlight for your two latest publications, the rest will be on the "publications-more" block -->
+				<h3>Recent Publications</h3> 
+				<div class="col-6">
+					<a href="#popup1">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<!-- Highlighted image of your latest publication -->
+						<h5>Highlight 1</h5> 
+						<!-- Name of your latest publication -->
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
+						<!-- a short description of your latest publication -->
+					</a>
+				</div>
+				<div class="col-6">
+					<a href="#popup2">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<!-- Same as the other highlight -->
+						<h5>Highlight 1</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, impedit.</p>
+					</a>
+				</div> <a href="#publications-more">More publications... ></a> 
+				<!-- Just a button to go to your other publication -->
+			</div>
+			<div class="col-md-2 awards">
+				<!-- Here you can add the awards you got -->
+				<h3>Awards</h3>
+				<ul>
+					<li>Lorem, ipsum dolor sit amet consectetur</li>
+					<li>Lorem, ipsum dolor sit amet consectetur</li>
+					<li>Lorem, ipsum dolor sit amet consectetur</li>
+					<li>Lorem, ipsum dolor sit amet consectetur</li>
+				</ul>
+			</div>
+			<div class="col-md-2 press-coverage">
+				<!-- Here you can add the magazines or newspaper you appeared in -->
+				<h3>Press coverages</h3>
+				<a href="epfl.ch">
+					<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/The_New_York_Times_Logo.svg/1280px-The_New_York_Times_Logo.svg.png">
+				</a>
+				<a href="epfl.ch">
+					<img class="img-responsive" src="http://logos-download.com/wp-content/uploads/2016/05/Forbes_logo_black.png">
+				</a>
+				<a href="epfl.ch">
+					<img class="img-responsive" src="https://www.meaforensic.com/wp-content/uploads/2018/06/spar3d_expo_rgb_horiz-1024x228.jpg">
+				</a>
+				<a href="epfl.ch">
+					<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/MIT_Technology_Review_logo.svg/1200px-MIT_Technology_Review_logo.svg.png">
+				</a>
+				<!-- Add the link in the "href" attribute and the logo of the magazine in the "src" attribute -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 career">
+				<!-- Here you can resume your career, you can delete the timeline or only add one university and delete the others if you want-->
+				<h3>Career</h3>
+				<div class="timeline">
+					<div>
+						<img class="logo-carrer" src="http://logosandbrands.directory/wp-content/themes/directorypress/thumbs/Carrier-University-logo.jpg">
+						<!-- Put the university logo in the href -->
+						<button data-toggle="collapse" data-target="#career1">2008 - 2011 v</button>
+						<!-- The date you were in -->
+						<div id="career1" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, amet?</div>
+						<!-- A short description of what you were doing here -->
+					</div>  
+					<div class="inBetween"></div>
+					<div>
+						<img class="logo-carrer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_the_University_of_Oxford.svg/150px-Coat_of_arms_of_the_University_of_Oxford.svg.png">
+						<button data-toggle="collapse" data-target="#career2">2011 - 2016 v</button>
+						<div id="career2" class="collapse">Lorem ipsum dolor sit amet.</div>
+					</div>
+					<div class="inBetween"></div>
+					<div>
+						<img class="logo-carrer" src="https://tse2.mm.bing.net/th?id=OIP.kOdvgcyvNZOEgIj0wGjGjgHaHa&pid=Api">
+						<button data-toggle="collapse" data-target="#career3">2016 - 2017 v</button>
+						<div id="career3" class="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+					</div>
+					<div class="inBetween"></div>
+					<div style="margin-left: -15px;">
+						<img class="logo-carrer" src="https://actu.epfl.ch/static/upload/fckeditorimage/ba/69/91561aed.jpg">
+						<button data-toggle="collapse" data-target="#career4">2017 - Now v</button>
+						<div id="career4" class="collapse">Lorem ipsum dolor sit amet consectetur.</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quidem molestias architecto optio dolor voluptatem deleniti, explicabo obcaecati voluptas quo ea nobis. Vitae ipsa corrupti pariatur omnis ratione? Facilis repudiandae possimus illo? Ex modi autem provident voluptatem corporis dicta id aliquam! Nisi impedit veritatis est nulla molestias commodi ullam nobis eos velit! Eligendi officiis optio dolorum dolor architecto minima consequatur tempore, tenetur temporibus corrupti dolores error non sint ut eius iste officia veritatis. Id, at minus iste cumque saepe iure distinctio inventore eius animi tenetur. Aut tenetur quo molestiae voluptatibus maiores laboriosam nulla laudantium consequatur praesentium non iusto expedita pariatur nihil magni.</p>
+				<!-- Here you can resume your career -->
+			</div>
+			<div class="col-md-3 projects">
+				<!-- Here you can add some projects you worked on -->
+				<h3>Projects</h3>
+				<a>
+					<div class="col-md-6">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<h5>Highlight 1</h5>
+						<p>Lorem ipsum dolor amet adipisicing elit. Culpa dicta quod ipsam doloribus.</p>
+					</div>
+				</a>
+				<a>
+					<div class="col-md-6">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<h5>Highlight 1</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
+					</div>
+				</a>
+				<a>
+					<div class="col-md-6">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<h5>Highlight 1</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
+					</div>
+				</a>
+				<a>
+					<div class="col-md-6">
+						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
+						<h5>Highlight 4</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
+					</div>
+				</a>
+			</div>
+			<div class="publications-more col-md-4" id="publications-more">
+				<h3>Publications</h3>
+				<ul id="pub-1">
+					<li>
+						<a href="#popup1">
+							<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
+							<div class="ctn-img">
+								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/6b/6e/6b6ed9a19d4107f9fd90395f843bd000.jpg">
+							</div>
+							<h5>Slope-Space Integrals for Specular Next Event Estimation</h5> 
+							<!-- Here is the name of your publication-->
+							<p>Guillaume Loubet, Tizian Zeltner, Nicolas Holzschuch, and Wenzel Jakob In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
+						</a>
+						<!-- Insert here the people who worked along you on this publications, or everything that comes to your mind-->
+						<div id="popup1" class="overlay popup">
+							<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
+							<div class="content"> <a class="close" href="#section">&times;</a>
+								<h1 id="popupH2">Slope-Space Integrals for Specular Next Event Estimation</h1> 
+								<!-- Here is the name of your publication-->
+								<div class="buttons-publications">
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
+									</button>
+								</div>
+								<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
+								<p> <strong>Abstract</strong> 
+									<br>Monte Carlo light transport simulations often lack robustness in scenes containing specular or near-specular materials. Widely used uni- and bidirectional sampling strategies tend to find light paths involving such materials with insufficient probability, producing unusable images that are contaminated by significant variance.
+									<br>This article addresses the problem of sampling a light path connecting two given scene points via a single specular reflection or refraction, extending the range of scenes that can be robustly handled by unbiased path sampling techniques. Our technique enables efficient rendering of challenging transport phenomena caused by such paths, such as underwater caustics or caustics involving glossy metallic objects.
+									<br>
+									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Loubet2020Slope_teaser.jpg" alt="a work">
+									<br>
+									<br>We derive analytic expressions that predict the total radiance due to a single reflective or refractive triangle with a microfacet BSDF and we show that this reduces to the well known Lambert boundary integral for irradiance. We subsequently show how this can be leveraged to efficiently sample connections on meshes comprised of vast numbers of triangles. Our derivation builds on the theory of off-center microfacets and involves integrals in the space of surface slopes.
+									<br>Our approach straightforwardly applies to the related problem of rendering glints with high-resolution normal maps describing specular microstructure. Our formulation alleviates problems raised by singularities in filtering integrals and enables a generalization of previous work to perfectly specular materials. We also extend previous work to the case of GGX distributions and introduce new techniques to improve accuracy and performance.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#popup2">
+							<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
+							<div class="ctn-img">
+								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/77/c9/77c9d53a2ca43fccf378c022d6d2179f.jpg" />
+							</div>
+							<h5>A General Framework for Pearlescent Materials</h5>
+							<!-- Here is the name of your publication-->
+							<p>Ibón Guillén, Julio Marco, Diego Gutierrez, Wenzel Jakob, and Adrien Jarabo In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
+						</a>
+						<!-- Insert here the people who worked alongside you on this publications, or everything that comes to your mind-->
+						<div id="popup2" class="overlay popup">
+							<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
+							<div class="content"> <a class="close" href="#section">&times;</a>
+								<h1 id="popupH2">A General Framework for Pearlescent Materials</h1>
+								<!-- Here is the name of your publication-->
+								<div class="buttons-publications">
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
+									</button>
+								</div>
+								<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
+								<p> <strong>Abstract</strong> 
+									<br />The unique and visually mesmerizing appearance of pearlescent materials has made them an indispensable ingredient in a diverse array of applications including packaging, ceramics, printing, and cosmetics. In contrast to their natural counterparts, such synthetic examples of pearlescence are created by dispersing microscopic interference pigments within a dielectric resin. The resulting space of materials comprises an enormous range of different phenomena ranging from smooth lustrous appearance reminiscent of pearl to highly directional metallic gloss, along with a gradual change in color that depends on the angle of observation and illumination. All of these properties arise due to a complex optical process involving multiple scattering from platelets characterized by wave-optical interference. This article introduces a flexible model for simulating the optics of such pearlescent 3D microstructures. Following a thorough review of the properties of currently used pigments and manufacturing-related effects that influence pearlescence, we propose a new model which expands the range of appearance that can be represented, and closely reproduces the behavior of measured materials, as we show in our comparisons. Using our model, we conduct a systematic study of the parameter space and its relationship to different aspects of pearlescent appearance. We observe that several previously ignored parameters have a substantial impact on the material's optical behavior, including the multi-layered nature of modern interference pigments, correlations in the orientation of pigment particles, and variability in their properties (e.g.~thickness). The utility of a general model for pearlescence extends far beyond computer graphics: inverse and differentiable approaches to rendering are increasingly used to disentangle the physics of scattering from real-world observations. Our approach could inform such reconstructions to enable the predictive design of tailored pearlescent materials.
+									<br>
+									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Guillen2020Pearlescent_teaser.jpg" alt="a work" />
+									<br />
+									<br />
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup A paper without image or popup A paper without image or popup A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+				</ul>
+				<ul id="pub-2">
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+				</ul>
+				<div id="nav-pub-buttons">
+					<button id="nav-pub-btn-1" onclick="navDiv1()">1</button>
+					<button id="nav-pub-btn-2" onclick="navDiv2()">2</button>
+				</div>
+			</div>
+		</div>
+    <div class="row">
+      <div class="col-md-3 projects">
+						<!-- Here you can add some projects you worked on -->
+						<h3>Projects
+              </h3>
+						<ul id="pro-1">
+							<li>
+								<a href="https://rgl.epfl.ch/software/Tekari">
+									<h5>zksk
+                    </h5>
+									<p>W. Lueks, B. Kulynych, J. Fasquelle, S. L. Bail-Collet, and C. Troncoso</p>
+								</a>
+								<input type="checkbox" class="read-more-state" id="downMore-1" />
+								<p class="read-more">zksk (Zero-knowledge Swiss Knife) is a library for easily defining and computing zero-knowledge proofs. Developers define proofs using a simple yet powerful Python DSL that resembles Camenisch-Stadler notation that is often used in academic publications. Moreover, zksk defines higher level zero-knowledge building blocks such as range proofs, and proofs of signatures.</p>
+								<label for="downMore-1" class="read-more-trigger"></label>
+							</li>
+							<li>
+								<a href="https://rgl.epfl.ch/software/Tekari">
+									<h5>Lightnion
+                    </h5>
+									<p>W. Lueks, M. Daumas, and C. Troncoso</p>
+								</a>
+								<input type="checkbox" class="read-more-state" id="downMore-2" />
+								<p class="read-more">Lightnion is a Javascript anonymous communication library that provides anonymous communication for web applications, providing seamless anonymity for users. It uses the existing Tor network. The library provides a convenient interface to make anonymous GET/POST requests to facilitate easy integration. Lightnion consists of a browser-side Javascript Tor client and a proxy that facilitates communication between browsers and the Tor network.</p>
+								<label for="downMore-2" class="read-more-trigger"></label>
+							</li>
+						</ul>
+            <ul id="pro-2">
+							<li>
+								<a href="https://rgl.epfl.ch/software/Tekari">
+									<h5>IRMA
+                    </h5>
+									<p>G. Alpár, F. van der Broek, B. Hampiholi, B. Jacobs, W. Lueks, and S. Ringers</p>
+								</a>
+								<input type="checkbox" class="read-more-state" id="downMore-3" />
+								<p class="read-more">While I was a PhD student in Nijmegen, The Netherlands, I worked extensively on IRMA. A system designed to provide easy-to-use attribute-based credentials to users and organizations. I helped develop and design large parts of the initial IRMA Android smartphone application and frontend and backend. Since then, the team has continue to improve the application, including supporting iOS and moving to a different cryptographic backend. See here for the latest work.</p>
+								<label for="downMore-3" class="read-more-trigger"></label>
+							</li>
+							<li>
+								<a href="https://rgl.epfl.ch/software/Tekari">
+									<h5>Percy++ PIR library
+                    </h5>
+									<p>W. Lueks and I. Goldberg</p>
+								</a>
+								<input type="checkbox" class="read-more-state" id="downMore-4" />
+								<p class="read-more">At the University of Waterloo I worked on speeding up information-theoretic private information retrieval. When the server processes queries in batches, it can do faster than if it were to processes the queries one by one. We integrated these improvements into the Percy++ library</p>
+								<label for="downMore-4" class="read-more-trigger"></label>
+							</li>
+						</ul>
+            <div id="nav-pub-buttons">
+					    <button id="nav-pro-btn-1" onclick="navPro1()">1</button>
+					    <button id="nav-pro-btn-2" onclick="navPro2()">2</button>
+            </div>
+    </div> 
+	</div></div>
+	<footer class="container-fluid text-center" id="backgroundFooter">
+		<p>John Doe | <a class="footerLinks" href="mailto:john.doe@epfl.ch">john.doe@epfl.ch</a> | <a class="footerLinks" href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> | Computer-Human Interaction Lab Learning & Instrution</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="fixed.js"></script>
+</body>
+
+</html>

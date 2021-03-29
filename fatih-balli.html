@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Student pages demo</title>
+	<!-- Title of your page -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="blocks\publications.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\about.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\awards.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\career.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\press-coverage.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\projects.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\z-edit-at-your-own-risk_publications-popup.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\z-edit-at-your-own-risk_projects-read-more.css" rel="stylesheet" type="text/css" />
+	<link href="fixed.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+</head>
+
+<body>
+	<header id="header" class="header">
+		<a href="https://epfl.ch">
+			<img src="img/fixed/EPFL_Logo_Digital_RGB_PROD.png" id="epflLogo">
+		</a>
+		<div id="backgroundProfil"></div>
+		<img src="https://lasec.epfl.ch/people/ballif/profile.jpg" id="profilPicture">
+		<!-- Your Photo -->
+		<h2>Fatih Balli</h2> 
+		<!-- Your name -->
+		<div id="mainInfos">
+			<a>
+				<img id="facultyLogo" src="img\fixed\epflFacultyLogo.png">
+			</a>
+			<p> <strong>Doctoral Assistant</strong> at <a href="https://lasec.epfl.ch">Security and Cryptography Laboratory</a> 
+				<!-- Your title and lab -->
+			</p>
+			<div id="separateur"></div>
+			<div id="contact"> <a href="mailto:john.doe@epfl.ch">fatih.balli@epfl.ch</a> 
+				<!-- Name and email address --> <a href="tel:+41791234567">+41 79 123 45 67</a> 
+				<!-- Tel --> <a href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> 
+				<!-- Location in campus --> <a href="https://www.epfl.ch/labs/lasec/contact/">EPFL, IC, RGL,<wbr> Station 14 <br> CH 1015 Lausanne <wbr> Switzerland</a> 
+				<!-- Postal address -->
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 about">
+				<!-- Write some lines about you, your experiences and everything you want -->
+				<h3>About</h3>
+				<p>I am a PhD student in the Computer and Communication Sciences (IC) Department of EPFL, Switzerland. I am affiliated with the Security and Cryptography Laboratory (LASEC) and have been working under the supervision of Prof. Serge Vaudenay. My current research is on lightweight cryptography where I focus on finding new circuit-level techniques to reduce circuit-size/energy/power cost of widely-deployed symmetric primitives (such as AES, SHA-family of hash functions) for resource-constrained devices. The ultimate goal is to understand what design choices make a symmetric primitive more lightweight with emphasis on energy consumption. Recently, I have been working on the evaulation of NIST Lightweight Cryptography candidates, namely to extract fair metrics on their energy efficiency, collaborating with Subhadeep Banik and Andrea Caforio.</p>
+			</div>
+			<div class="col-md-3 projects">
+				<!-- Here you can add some projects you worked on -->
+				<h3>Projects</h3>
+				<ul>
+					<a href="https://github.com/qantik/The-Area-Latency-Symbiosis">
+						<li>
+							<h5>The Area-Latency Symbiosis: Towards Improved Serial Encryption Circuits (bit/byte-serial AES, GIFT, SKINNY)</h5>
+						</li>
+					</a>
+					<a href="https://github.com/qantik/Energy-Analysis-of-Lightweight-AEAD-Circuit">
+						<li>
+							<h5>Energy Analysis of Lightweight AEAD Circuits</h5>
+						</li>
+					</a>
+					<a href="https://lasec.epfl.ch/people/ballif/codes/swap_rotate.zip">
+						<li>
+							<h5>Swap and Rotate (bit-serial Enc/Dec PRESENT, GIFT)</h5>
+						</li>
+					</a>
+					<a href="https://lasec.epfl.ch/people/ballif/codes/6aes.zip">
+						<li>
+							<h5>Six Shades of AES</h5>
+						</li>
+					</a>
+					<a href="https://c4science.ch/source/lightforkaes">
+						<li>
+							<h5>Exploring Lightweight Efficiency of ForkAES</h5>
+						</li>
+					</a>
+				</ul>
+			</div>
+			<div class="col-md-3 awards">
+				<!-- Here you can add the awards you got -->
+				<h3>Awards</h3>
+				<ul>
+					<li>
+						<p>ACM SIGGRAPH Significant Researcher award</p>
+					</li>
+					<li>
+						<p>Eurographics Young Researcher Award</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 career">
+				<!-- Here you can resume your career, you can delete the timeline or only add one university and delete the others if you want-->
+				<h3>Career</h3>
+				<div class="timeline">
+					<div>
+						<img class="logo-carrer" src="http://logosandbrands.directory/wp-content/themes/directorypress/thumbs/Carrier-University-logo.jpg">
+						<!-- Put the university logo in the href -->
+						<button data-toggle="collapse" data-target="#career1">2008 - 2011 v</button>
+						<!-- The date you were in -->
+						<div id="career1" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, amet?</div>
+						<!-- A short description of what you were doing here -->
+					</div>
+					<div class="inBetween"></div>
+					<div>
+						<img class="logo-carrer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_the_University_of_Oxford.svg/150px-Coat_of_arms_of_the_University_of_Oxford.svg.png">
+						<button data-toggle="collapse" data-target="#career2">2011 - 2016 v</button>
+						<div id="career2" class="collapse">Lorem ipsum dolor sit amet.</div>
+					</div>
+					<div class="inBetween"></div>
+					<div>
+						<img class="logo-carrer" src="https://tse2.mm.bing.net/th?id=OIP.kOdvgcyvNZOEgIj0wGjGjgHaHa&pid=Api">
+						<button data-toggle="collapse" data-target="#career3">2016 - 2017 v</button>
+						<div id="career3" class="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+					</div>
+					<div class="inBetween"></div>
+					<div>
+						<img class="logo-carrer" src="https://actu.epfl.ch/static/upload/fckeditorimage/ba/69/91561aed.jpg">
+						<button data-toggle="collapse" data-target="#career4">2017 - Now v</button>
+						<div id="career4" class="collapse">Lorem ipsum dolor sit amet consectetur.</div>
+					</div>
+				</div>
+				<p>I obtained my BsC degrees in both majors: Electrical-Electronic Engineering and Computer Engineering from TOBB University of Economics and Technology in 2015, in Turkey. I am curretly doing a PhD in EPFL's Security and Cryptography Lab (LASEC), since September 2016.</p>
+				<!-- Here you can resume your career -->
+			</div>
+			<div class="publications-more col-md-6" id="publications-more">
+				<h3>Publications</h3>
+				<ul id="pub-1">
+					<li>
+						<a href="#popup1">
+							<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
+							<div class="ctn-img">
+								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/6b/6e/6b6ed9a19d4107f9fd90395f843bd000.jpg">
+							</div>
+							<h5>Slope-Space Integrals for Specular Next Event Estimation</h5> 
+							<!-- Here is the name of your publication-->
+							<p>Guillaume Loubet, Tizian Zeltner, Nicolas Holzschuch, and Wenzel Jakob In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
+						</a>
+						<!-- Insert here the people who worked along you on this publications, or everything that comes to your mind-->
+						<div id="popup1" class="overlay popup">
+							<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
+							<div class="content"> <a class="close" href="#section">&times;</a>
+								<h1 id="popupH2">Slope-Space Integrals for Specular Next Event Estimation</h1> 
+								<!-- Here is the name of your publication-->
+								<div class="buttons-publications">
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
+									</button>
+								</div>
+								<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
+								<p> <strong>Abstract</strong> 
+									<br>Monte Carlo light transport simulations often lack robustness in scenes containing specular or near-specular materials. Widely used uni- and bidirectional sampling strategies tend to find light paths involving such materials with insufficient probability, producing unusable images that are contaminated by significant variance.
+									<br>This article addresses the problem of sampling a light path connecting two given scene points via a single specular reflection or refraction, extending the range of scenes that can be robustly handled by unbiased path sampling techniques. Our technique enables efficient rendering of challenging transport phenomena caused by such paths, such as underwater caustics or caustics involving glossy metallic objects.
+									<br>
+									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Loubet2020Slope_teaser.jpg" alt="a work">
+									<br>
+									<br>We derive analytic expressions that predict the total radiance due to a single reflective or refractive triangle with a microfacet BSDF and we show that this reduces to the well known Lambert boundary integral for irradiance. We subsequently show how this can be leveraged to efficiently sample connections on meshes comprised of vast numbers of triangles. Our derivation builds on the theory of off-center microfacets and involves integrals in the space of surface slopes.
+									<br>Our approach straightforwardly applies to the related problem of rendering glints with high-resolution normal maps describing specular microstructure. Our formulation alleviates problems raised by singularities in filtering integrals and enables a generalization of previous work to perfectly specular materials. We also extend previous work to the case of GGX distributions and introduce new techniques to improve accuracy and performance.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#popup2">
+							<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
+							<div class="ctn-img">
+								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/77/c9/77c9d53a2ca43fccf378c022d6d2179f.jpg" />
+							</div>
+							<h5>A General Framework for Pearlescent Materials</h5>
+							<!-- Here is the name of your publication-->
+							<p>Ibón Guillén, Julio Marco, Diego Gutierrez, Wenzel Jakob, and Adrien Jarabo In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
+						</a>
+						<!-- Insert here the people who worked alongside you on this publications, or everything that comes to your mind-->
+						<div id="popup2" class="overlay popup">
+							<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
+							<div class="content"> <a class="close" href="#section">&times;</a>
+								<h1 id="popupH2">A General Framework for Pearlescent Materials</h1>
+								<!-- Here is the name of your publication-->
+								<div class="buttons-publications">
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
+									</button>
+									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
+									</button>
+								</div>
+								<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
+								<p> <strong>Abstract</strong> 
+									<br />The unique and visually mesmerizing appearance of pearlescent materials has made them an indispensable ingredient in a diverse array of applications including packaging, ceramics, printing, and cosmetics. In contrast to their natural counterparts, such synthetic examples of pearlescence are created by dispersing microscopic interference pigments within a dielectric resin. The resulting space of materials comprises an enormous range of different phenomena ranging from smooth lustrous appearance reminiscent of pearl to highly directional metallic gloss, along with a gradual change in color that depends on the angle of observation and illumination. All of these properties arise due to a complex optical process involving multiple scattering from platelets characterized by wave-optical interference. This article introduces a flexible model for simulating the optics of such pearlescent 3D microstructures. Following a thorough review of the properties of currently used pigments and manufacturing-related effects that influence pearlescence, we propose a new model which expands the range of appearance that can be represented, and closely reproduces the behavior of measured materials, as we show in our comparisons. Using our model, we conduct a systematic study of the parameter space and its relationship to different aspects of pearlescent appearance. We observe that several previously ignored parameters have a substantial impact on the material's optical behavior, including the multi-layered nature of modern interference pigments, correlations in the orientation of pigment particles, and variability in their properties (e.g.~thickness). The utility of a general model for pearlescence extends far beyond computer graphics: inverse and differentiable approaches to rendering are increasingly used to disentangle the physics of scattering from real-world observations. Our approach could inform such reconstructions to enable the predictive design of tailored pearlescent materials.
+									<br>
+									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Guillen2020Pearlescent_teaser.jpg" alt="a work" />
+									<br />
+									<br />
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup A paper without image or popup A paper without image or popup A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+				</ul>
+				<ul id="pub-2">
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+					<li class="publications-li-less">
+						<a href="paper.pdf">
+							<h5>A paper without image or popup </h5>
+							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
+						</a>
+					</li>
+				</ul>
+				<div id="nav-pub-buttons">
+					<button id="nav-pub-btn-1" onclick="navDiv1()">1</button>
+					<button id="nav-pub-btn-2" onclick="navDiv2()">2</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid text-center" id="backgroundFooter">
+		<p>Fatih Balli | <a href="mailto:john.doe@epfl.ch">fatih.balli@epfl.ch</a> | <a href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> | <a href="https://rgl.epfl.ch">Security and Cryptography Laboratory</a>
+		</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="fixed.js"></script>
+</body>
+
+</html>

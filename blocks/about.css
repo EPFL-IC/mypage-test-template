@@ -1,0 +1,19 @@
+/* CSS sheet for the "About" block */
+.about {
+    background: #fafafa;
+    min-height: 45vh;
+}
+.about > p {
+  padding: 5px 15px 5px 5px;
+  text-align: justify;
+}
+@media handeld, (max-width: 1100px), (max-aspect-ratio: 1/1) {
+  .about > p {
+  text-align: left;
+  }
+}
+@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
+.about {
+  min-height:30vh;
+} 
+}
