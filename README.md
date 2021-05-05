@@ -242,7 +242,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
                 <p>Short description e.g. people who worked on it </p>
             </a>
             <input type="checkbox" class="read-more-state" id="downMore-2" />
-            <p class="read-more"> A long project description.</p>
+            <p class="read-more">A long project description.</p>
             <label for="downMore-2" class="read-more-trigger"></label>
         </li>
     </ul>
@@ -354,7 +354,7 @@ This block is separated in two parts: the timeline and the biography. Feel free 
                 </div>
                 <h5>Publication name</h5>
                 <!-- Here is the name of your publication-->
-                <p>A short descript	tion of this publication</p>
+                <p>A short description of this publication</p>
             </a>
             <div id="popup1" class="overlay popup">
                 <!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
