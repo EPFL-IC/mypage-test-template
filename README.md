@@ -4,6 +4,10 @@
 
 The goal of this project is to offer grad students an EPFL domain based webpage where they can showcase information about themselves and their research.
 
+Keep in mind that :
+* Each user has a quota of 1Gb
+* After your departure, there will be a grace period of 6 months
+
 ### Objectives:
 
 The main objectives of this project: <br />
