@@ -2,16 +2,16 @@
 
 ### Introduction:
 
-The goal of this project is to offer grad students an EPFL domain based webpage where they can showcase information about themselves and their research.
+The goal of this project is to offer Master and grad students from IC School with an EPFL domain webpage where they can showcase information about themselves and their research.
 
 Keep in mind that :
 * Each user has a quota of 1Gb
-* After your departure, there will be a grace period of 6 months
+* After your departure from EPFL, there will be a grace period of 6 months
 
 ### Objectives:
 
 The main objectives of this project: <br />
-* Provide an easy and ready to use template for grad students,  
+* Provide an easy and ready to use template for Master and grad students,  
 * Uniformize the webpages with EPFL graphical elements,  
 * Provide a modular based page with CSS/JS/html that can be customized and adapted as needed.
 
