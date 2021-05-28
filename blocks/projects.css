@@ -7,7 +7,7 @@
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .projects {
   min-height:30vh;
-} 
+}
 }
 .projects > a > div {
   transition: all .3s linear;
@@ -60,7 +60,7 @@
   visibility: hidden;
   position: absolute;
   top: 46.4px;
-} 
+}
 #pro-5 {
   visibility: hidden;
   position: absolute;
@@ -112,7 +112,7 @@
   justify-content: center;
 }
 /* Responsive */
-@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1),  {
+@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1)  {
   .projects {
     width: 90vw;
     display: flex;

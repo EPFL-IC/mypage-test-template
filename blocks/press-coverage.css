@@ -2,12 +2,11 @@
 .press-coverage {
   background: #fafafa;
   min-height: 45vh;
-  width: 15vw;
 }
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .press-coverage {
   min-height:30vh;
-} 
+}
 }
 .press-coverage img {
   display: block;

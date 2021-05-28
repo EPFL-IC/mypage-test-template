@@ -15,5 +15,5 @@
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .about {
   min-height:30vh;
-} 
+}
 }
