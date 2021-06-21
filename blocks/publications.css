@@ -7,6 +7,7 @@
   grid-template-rows: 4em 1fr 3em;
   grid-template-columns: 50% 50%;
   font-size: .9em;
+  text-align: justify;
 }
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .publications-recent {
@@ -61,7 +62,7 @@
 .publications-recent > a {
   grid-row: 3;
   grid-column: 2;
-  border: solid 1px #ff0000;
+  border-radius: 5px 5px 0 0;
   border-bottom: none;
   border-right: none;
   right: 0;
@@ -74,10 +75,21 @@
   transition: all .5s;
   overflow: hidden;
   text-align: center;
-  background: #f4f4f4;
+  background: #fafafa;
+  transform: translateY(-5px);
+  transform: translateX(-2px);
+  box-shadow:  0 0 0 #dddddd,
+               0 0 0 #ffffff,
+                2px 2px 5px #dddddd inset,
+                -2px -2px 5px #ffffff inset;
+  padding-left: 5px;
 }
 .publications-recent > a:hover {
-  border: 1px solid #000;
+  background: #fafafa;
+  box-shadow:  0 0 0 #dddddd,
+               0 0 0 #ffffff,
+                7px 7px 10px #dddddd inset,
+                -7px -7px 10px #ffffff inset;
   border-bottom: none;
   border-right: 0;
 }
@@ -205,6 +217,9 @@ grid-gap: 0!important;
   color: #fff;
 }
 #nav-pub-buttons button {
+  border-radius: 10px;
+  box-shadow:  5px 5px 10px #d5d5d5,
+             -5px -5px 10px #ffffff;
   height: 3vh;
   background: none;
   border: none;
@@ -215,7 +230,11 @@ grid-gap: 0!important;
 }
 
 #nav-pub-buttons button:hover {
-  border: #ff0000 1px solid;
+  background: #fafafa;
+  box-shadow:  0 0 0 #dddddd,
+               0 0 0 #ffffff,
+                7px 7px 10px #dddddd inset,
+                -7px -7px 10px #ffffff inset;
 }
 #nav-pub-buttons {
   display: flex;

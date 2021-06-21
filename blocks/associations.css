@@ -1,0 +1,84 @@
+.associations {
+  min-height: 45vh;
+  background: #fafafa;
+  z-index: 4;
+  padding-right: 15px!important;
+}
+.associations-child {
+	position: relative;
+}
+
+.associations-child label {
+  border-radius: 10px;
+  box-shadow:  2px 3px 5px #d5d5d5,
+             -2px -3px 5px #ffffff;
+  display: flex;
+  align-items: center;
+	background: #fafafa;
+	color: #646464;
+	cursor: pointer;
+	line-height: 1;
+  height: 7rem;
+  font-size: 2rem;
+  font-weight: 600;
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+}
+.associations-child label img {
+  height: 4rem;
+}
+.associations-child input {
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -999;
+}
+.associations-child label span {
+  position: absolute;
+  margin-left: 50%;
+}
+.associations-child input:checked + label,
+.associations-child label:hover{
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow:  0 0 0 #dddddd,
+               0 0 0 #ffffff,
+                7px 7px 10px #dddddd inset,
+                -7px -7px 10px #ffffff inset;
+	/*background: #fafafa;
+  transform: translateX(-3px);
+  transform: translateY(-3px);
+  filter: drop-shadow(10px 5px 2px #dddddd);*/
+  transition: all .2s linear;
+  color: #323232;
+}
+.associations input[type="radio"] {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.associations-child label {
+  transition-property: filter, transform;
+  transition: .2s linear;
+}
+
+.assoc-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.35s;
+}
+
+
+
+/* open the tab when label is checked */
+
+.associations-child input:checked ~ .assoc-content {
+	max-height: 25em;
+}
+
+
+/*.associations-child > input:not(:focus) ~ .assoc-content {
+	max-height: 0;
+	transition: all .75s cubic-bezier(0.19, 1, 0.22, 1) .15s;
+}*/

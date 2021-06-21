@@ -13,7 +13,7 @@
   height: 1em;
   position: absolute;
   top: 2vh;
-  left: 95vw; 
+  left: 95vw;
   right: 5vw;
 }
 .close:hover {
@@ -30,6 +30,7 @@
   justify-self: center;
   order: 3;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
   margin: 0;
   width: 80vw;
   font-size: 1.3em;
@@ -47,7 +48,7 @@
   left: 0;
   right: 0;
   transition: opacity 700ms;
-  visibility: hidden; 
+  visibility: hidden;
   z-index:25;
   transition: .5s;
 }
@@ -100,7 +101,7 @@
     margin: 5vw;
     font-size: 1.3em;
     width: 80vw;
-    font-weight: bold; 
+    font-weight: bold;
   }
   .close {
     font-size: 5em;
@@ -117,5 +118,5 @@
   .close {
     left: 85vw;
     font-size: 4em;
-    width: auto;  
+    width: auto;
   }

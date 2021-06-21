@@ -2,7 +2,7 @@
 .projects {
   min-height: 45vh;
   background: #fafafa;
-  z-index: 4;
+  z-index: 9;
 }
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .projects {

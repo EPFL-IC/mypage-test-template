@@ -15,7 +15,9 @@
 	<link href="blocks\projects.css" rel="stylesheet" type="text/css" />
 	<link href="blocks\z-edit-at-your-own-risk_publications-popup.css" rel="stylesheet" type="text/css" />
 	<link href="blocks\z-edit-at-your-own-risk_projects-read-more.css" rel="stylesheet" type="text/css" />
+	<link href="blocks\associations.css" rel="stylesheet" type="text/css" />
 	<link href="fixed.css" rel="stylesheet" type="text/css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
@@ -30,7 +32,7 @@
 		<div id="backgroundProfil"></div>
 		<img src="img\fixed\photo_profil.png" id="profilPicture">
 		<!-- Your Photo -->
-		<h2>John Doe</h2>
+		<h2>Samuel Hayden</h2>
 		<!-- Your name -->
 		<div id="mainInfos">
 			<a>
@@ -41,7 +43,7 @@
 					<!-- Your title and lab -->
 			</p>
 			<div id="separateur"></div>
-			<div id="contact"> <a href="mailto:john.doe@epfl.ch">John Doe</a>
+			<div id="contact"> <a href="mailto:samuel.hayden@epfl.ch">Samuel Hayden</a>
 				<!-- Name and email address --> <a href="tel:+41791234567">+41 79 123 45 67</a>
 				<!-- Tel --> <a href="https://plan.epfl.ch/?room==BC%20402">BC 402</a>
 				<!-- Location in campus --> <a href="https://www.epfl.ch/labs/chili/contact/">EPFL, IC, CHILI,<wbr> Station 14 <br> CH 1015 Lausanne <wbr> Switzerland</a>
@@ -146,28 +148,28 @@
 				<!-- Here you can add some projects you worked on -->
 				<h3>Projects</h3>
 				<a>
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
 						<h5>Highlight 1</h5>
 						<p>Lorem ipsum dolor amet adipisicing elit. Culpa dicta quod ipsam doloribus.</p>
 					</div>
 				</a>
 				<a>
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
 						<h5>Highlight 1</h5>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
 					</div>
 				</a>
 				<a>
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
 						<h5>Highlight 1</h5>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
 					</div>
 				</a>
 				<a>
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
 						<h5>Highlight 4</h5>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
@@ -290,8 +292,7 @@
     <div class="row">
       <div class="col-md-3 projects">
 						<!-- Here you can add some projects you worked on -->
-						<h3>Projects
-              </h3>
+						<h3>Projects</h3>
 						<ul id="pro-1">
 							<li>
 								<a href="https://rgl.epfl.ch/software/Tekari">
@@ -341,9 +342,45 @@
 					    <button id="nav-pro-btn-2" onclick="navPro2()">2</button>
             </div>
     </div>
+		<div class="associations col-md-3">
+			<h3>Associations</h3>
+				<div class="associations-child">
+					<input id="assoc-1" type="radio" name="tabs">
+					<label for="assoc-1" ><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+					<div class="assoc-content">
+						<p>The CLIC is the Computer Science and Communications Student Association of the École Polytechnique Fédérale de Lausanne (EPFL). <br> During my time at the CLIC I was in charge of the following tasks : <br></p>
+						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+					</div>
+				</div>
+				<div class="associations-child">
+					<input id="assoc-2" type="radio" name="tabs">
+					<label for="assoc-2"><img src="https://agepoly.ch/wp-content/themes/agepoly/resources/Horizontal_-_AI_-_AGEPoly.svg"><span>2019 - 2020<br>President, AGEPoly EPFL</span></label>
+					<div class="assoc-content">
+						<p>AgePoly is the student association of the EPFL.</p>
+						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+					</div>
+				</div>
+				<div class="associations-child">
+					<input id="assoc-3" type="radio" name="tabs">
+					<label for="assoc-3"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+					<div class="assoc-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
+						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+					</div>
+				</div>
+				<div class="associations-child">
+					<input id="assoc-4" type="radio" name="tabs">
+					<label for="assoc-4"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+					<div class="assoc-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
+						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+					</div>
+				</div>
+
+			</div>
 	</div></div>
 	<footer class="container-fluid text-center" id="backgroundFooter">
-		<p>John Doe | <a class="footerLinks" href="mailto:john.doe@epfl.ch">john.doe@epfl.ch</a> | <a class="footerLinks" href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> | Computer-Human Interaction Lab Learning & Instrution</p>
+		<p>Samuel Hayden | <a class="footerLinks" href="mailto:samuel.hayden@epfl.ch">samuel.hayden@epfl.ch</a> | <a class="footerLinks" href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> | Computer-Human Interaction Lab Learning & Instrution</p>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

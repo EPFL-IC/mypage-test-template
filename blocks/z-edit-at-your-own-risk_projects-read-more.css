@@ -7,6 +7,7 @@
   font-size: 0;
   transition: .3s ease;
   hyphens: auto;
+  z-index: 999;
 }
 .read-more-state:checked ~ .read-more {
   opacity: 1;
@@ -27,10 +28,23 @@
 }
 .read-more-trigger:hover {
   background: #f0f0f0;
-  border: #f0f0f0 1px solid;
+  box-shadow:  0 0 0 #dddddd,
+               0 0 0 #ffffff,
+                1px 1px 5px #dddddd inset,
+                -1px -1px 5px #ffffff inset;
+  transition-property: box-shadow;
+  transition: .2s;
   }
+.read-more-state:checked + .readmore {
+  background-color: red!important;
+  color: red!important;
+}
+.read-more-state:checked
 .read-more-trigger {
+  box-shadow:  5px 5px 10px #d5d5d5,
+             -5px -5px 10px #ffffff;
   margin-top: 0.5vh;
+  z-index: 9999;
   cursor: pointer;
   display: inline-block;
   padding: .1em .2em;
@@ -38,8 +52,8 @@
   font-size: .8em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: .25em;
+  transition: box-shadow .2s;
 }
 @media handeld, (max-width: 940px), (max-aspect-ratio: 1/1) {
   .read-more-trigger {
