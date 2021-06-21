@@ -33,6 +33,8 @@ There are currently 8 files in the blocks folder :
 
 * about.css<br />
   About block: Write a short description about yourself, your experience and anything you’d like to highlight.
+* assocations.css <br />
+  Assocations block: If you've ever been in a student assocation, add it into this block.
 * awards.css<br />
   Awards block: Here you can add your achievements or awards.
 * career.css<br />
