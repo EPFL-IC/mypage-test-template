@@ -33,6 +33,8 @@ There are currently 8 files in the blocks folder :
 
 * about.css<br />
   About block: Write a short description about yourself, your experience and anything you’d like to highlight.
+* assocations.css <br />
+  Assocations block: If you've ever been in a student assocation, add it into this block.
 * awards.css<br />
   Awards block: Here you can add your achievements or awards.
 * career.css<br />
@@ -111,12 +113,11 @@ If you don't know how to acess an SFTP server, here is two tutorials.
 
 7. That's it!
 
-##### 2.
 #### 2. Creating your page
 
 Note: Everything in Italic and behind * should be replaced.
-
 For the layout, we used bootstrap. You can add a grid by adding the col- classes. More information on https://getbootstrap.com/docs/4.0/layout/grid/.
+Feel free to delete or add blocks as you want - this is the point of having modular blocks.
 
 #### **1. Some cool HTML/CSS/JS Editors**
 
@@ -136,8 +137,8 @@ Here is a step-by-step tutorial on how to fill basic information on the html fil
 * In the `<body>`
     * a. Add your profile picture: change the `<img src="img\fixed\*myPhoto.png*" id="profilPicture">`
     * b. Change `<h2>Samuel Hayden</h2>` change *Samuel Hayden* by your name.
-    * c. Add your title and lab: change the `<strong>` *mytitle* `</strong>`, the `<a href=*https://mylab.epfl.ch>*` *my lab* `</a>`
-    * d. Add your contact information:
+    * c. Add your title and lab: change the `<strong>` *mytitle* `</strong>`, the `<a href=*https://mylab.epfl.ch>*` *my lab* `</a>`. If you don't have a lab, delete the <a></a> tag.
+    * d. Add your contact information. If you don't have one of them, delete it:
          Email --> `<a href="mailto:*my.name*@epfl.ch">` *My name* `</a>`<br />
          Tel --> `<a href="tel:+41791234567{color:DarkOrange !important;} ">`*+41 79 123 45 67*`</a>`<br />
          Office location --> `<a href="*https://plan.epfl.ch/?room==BC%20402*">`*BC 402*`</a>`<br />
@@ -184,6 +185,50 @@ This block is a spotlight for your two latest publications, the rest will appear
 ```
 
 ![1](https://user-images.githubusercontent.com/78591401/116852713-1ace5880-abf5-11eb-935d-9256b94a0054.png)
+
+
+#### Assocations <br />
+Here you can add the assocations you've been involved into.
+
+``` 
+<div class="associations col-md-3">
+  <h3>Associations</h3>
+    <div class="associations-child">
+      <input id="assoc-1" type="radio" name="tabs">
+      <label for="assoc-1" ><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+      <div class="assoc-content">
+        <p>The CLIC is the Computer Science and Communications Student Association of the École Polytechnique Fédérale de Lausanne (EPFL). <br> During my time at the CLIC I was in charge of the following tasks : <br></p>
+        <ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+      </div>
+    </div>
+    <div class="associations-child">
+      <input id="assoc-2" type="radio" name="tabs">
+      <label for="assoc-2"><img src="https://agepoly.ch/wp-content/themes/agepoly/resources/Horizontal_-_AI_-_AGEPoly.svg"><span>2019 - 2020<br>President, AGEPoly EPFL</span></label>
+      <div class="assoc-content">
+        <p>AgePoly is the student association of the EPFL.</p>
+        <ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+      </div>
+    </div>
+    <div class="associations-child">
+      <input id="assoc-3" type="radio" name="tabs">
+      <label for="assoc-3"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+      <div class="assoc-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
+        <ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+      </div>
+    </div>
+    <div class="associations-child">
+      <input id="assoc-4" type="radio" name="tabs">
+      <label for="assoc-4"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
+      <div class="assoc-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
+        <ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
+      </div>
+    </div>
+</div>a
+ ``` 
+
+![image](https://user-images.githubusercontent.com/45627872/122885658-9029f000-d33f-11eb-9018-824d63bb9cb8.png)
 
 #### Awards<br />
 
