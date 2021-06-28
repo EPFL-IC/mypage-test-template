@@ -140,7 +140,7 @@ Here is a step-by-step tutorial on how to fill basic information on the html fil
     * c. Add your title and lab: change the `<strong>` *mytitle* `</strong>`, the `<a href=*https://mylab.epfl.ch>*` *my lab* `</a>`. If you don't have a lab, delete the <a></a> tag.
     * d. Add your contact information. If you don't have one of them, delete it:
          Email --> `<a href="mailto:*my.name*@epfl.ch">` *My name* `</a>`<br />
-         Tel --> `<a href="tel:+41791234567{color:DarkOrange !important;} ">`*+41 79 123 45 67*`</a>`<br />
+         Tel --> `<a href="tel:+41791234567">`*+41 79 123 45 67*`</a>`<br />
          Office location --> `<a href="*https://plan.epfl.ch/?room==BC%20402*">`*BC 402*`</a>`<br />
          Postal address --> <a href="*https://mylab.epfl.ch/contact*">EPFL, IC, *mylab*,`<wbr>` *Station 14* `<br>` CH 1015 Lausanne `<wbr>` Switzerland`</a>`
 * In the `<footer>`
