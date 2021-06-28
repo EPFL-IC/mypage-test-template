@@ -9,11 +9,7 @@
   font-size: .9em;
   text-align: justify;
 }
-@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
-.publications-recent {
-  min-height:30vh;
-}
-}
+
 .publications-recent > h3 {
   grid-row: 1;
   grid-column: 1 / 3;
@@ -35,6 +31,7 @@
 }
 .publications-recent div {
   min-width: 7vw;
+  margin-left: 10px;
 }
 /* some css */
 .publications-recent > div > a {
@@ -44,8 +41,8 @@
   height: max-content;
   width: auto;
   transition: all .3s linear;
-  padding: 0.3vh;
-  filter: drop-shadow(30px 10px 4px #fff);
+  padding: 0.3vh 0.3vh 0.3vh 1.3vh;
+  margin-right: 20px;
   }
 .publications-recent > div > a:hover {
   text-decoration: none;
@@ -54,6 +51,9 @@
 }
 .publications-recent > div > a > h5 {
   text-decoration: underline #ff0000;
+}
+.publications-recent > div > a > p {
+  min-width: 2vw;
 }
 .publications-recent > div > a:hover > h5 {
   text-decoration: underline #000;
@@ -103,6 +103,11 @@ More publications
   background: #fafafa;
   min-height: 40vh;
   overflow: hidden;
+}
+@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
+.publications-recent {
+  min-height:30vh;
+}
 }
 @media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
 .publications-more {
