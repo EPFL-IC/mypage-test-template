@@ -137,12 +137,12 @@ Here is a step-by-step tutorial on how to fill basic information on the html fil
 * In the `<body>`
     * a. Add your profile picture: change the `<img src="img\fixed\*myPhoto.png*" id="profilPicture">`
     * b. Change `<h2>Samuel Hayden</h2>` change *Samuel Hayden* by your name.
-    * c. Add your title and lab: change the `<strong>` *mytitle* `</strong>`, the `<a href=*https://mylab.epfl.ch>*` *my lab* `</a>`. If you don't have a lab, delete the <a></a> tag.
+    * c. Add your title and lab: change the `<strong>` *mytitle* `</strong>`, the `<a target="_blank" href=*https://mylab.epfl.ch>*` *my lab* `</a>`. If you don't have a lab, delete the <a></a> tag.
     * d. Add your contact information. If you don't have one of them, delete it:
          Email --> `<a href="mailto:*my.name*@epfl.ch">` *My name* `</a>`<br />
          Tel --> `<a href="tel:+41791234567">`*+41 79 123 45 67*`</a>`<br />
          Office location --> `<a href="*https://plan.epfl.ch/?room==BC%20402*">`*BC 402*`</a>`<br />
-         Postal address --> <a href="*https://mylab.epfl.ch/contact*">EPFL, IC, *mylab*,`<wbr>` *Station 14* `<br>` CH 1015 Lausanne `<wbr>` Switzerland`</a>`
+         Postal address --> `<a href="*https://mylab.epfl.ch/contact*">EPFL, IC, *mylab*,`<wbr>` *Station 14* `<br>` CH 1015 Lausanne `<wbr>` Switzerland`</a>`
 * In the `<footer>`
     Change your info :
     `<p>` *myname* | `<a class="footerLinks" href="mailto:*my.name@epfl.ch*">`my.name@epfl.ch`</a>` | `<a class="footerLinks" href="*https://plan.epfl.ch/?room==BC%20402*">`*BC 402*`</a>` | *Mylab*`</p>`
@@ -254,16 +254,16 @@ Here you can add the magazines or newspaper you/your work appeared in.
 ````
 <div class="press-coverage">
   <h3>Press coverages</h3>
-  <a href="https://www.aMagazine.com">
+  <a target="_blank" href="https://www.aMagazine.com">
     <img class="img-responsive" src="logoMagazine.jpg”>
   </a>
-  <a href="https://www.aMagazine.com">
+  <a target="_blank" href="https://www.aMagazine.com">
     <img class="img-responsive" src="logoMagazine.jpg”>
   </a>
-  <a href="https://www.aMagazine.com">
+  <a target="_blank" href="https://www.aMagazine.com">
     <img class="img-responsive" src="logoMagazine.jpg”>
   </a>
-  <a href="https://www.aMagazine.com">
+  <a target="_blank" href="https://www.aMagazine.com">
     <img class="img-responsive" src="logoMagazine.jpg”>
   </a>
 </div>
@@ -321,7 +321,7 @@ You can use three different formats:
 ```
 <div class="projects">
     <h3>Projects</h3>
-    <a href="https://myProjectWebsite.com">
+    <a target="_blank" href="https://myProjectWebsite.com">
         <div class="col-md-6">
         <img class="img-responsive" src="myProjectPic.jpg (best result will be with a square image)">
         <h5>Project 1</h5>
@@ -335,14 +335,14 @@ You can use three different formats:
         <p>A short description of the project.</p>
         </div>
     </a>
-    <a href="https://myProjectWebsite.com">
+    <a target="_blank" href="https://myProjectWebsite.com">
         <div class="col-md-6">
         <img class="img-responsive" src="myProjectPic.jpg (best result will be with a square image)">
         <h5>Project 3</h5>
         <p>A short description of the project.</p>
         </div>
     </a>
-    <a href="https://myProjectWebsite.com">
+    <a target="_blank" href="https://myProjectWebsite.com">
         <div class="col-md-6">
         <img class="img-responsive" src="myProjectPic.jpg (best result will be with a square image)">
         <h5>Project 4</h5>
@@ -381,7 +381,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
     <h3>Projects</h3>
     <ul id="pro-1">
         <li>
-            <a href="https://www.myProjectWebsite.com">
+            <a target="_blank" href="https://www.myProjectWebsite.com">
                 <h5>Project 1</h5>
                 <p>Short description e.g. people who worked on it.</p>
             </a>
@@ -390,7 +390,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
             <label for="downMore-1" class="read-more-trigger"></label>
         </li>
         <li>
-            <a href="https://www.myProjectWebsite.com">
+            <a target="_blank" href="https://www.myProjectWebsite.com">
                 <h5>Project 2</h5>
                 <p>Short description e.g. people who worked on it </p>
             </a>
@@ -401,7 +401,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
     </ul>
     <ul id="pro-2">
         <li>
-            <a href="https://www.myProjectWebsite.com">
+            <a target="_blank" href="https://www.myProjectWebsite.com">
                 <h5>Project 3</h5>
                 <p>Short description e.g. people who worked on it.</p>
             </a>
@@ -410,7 +410,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
             <label for="downMore-3" class="read-more-trigger"></label>
         </li>
         <li>
-            <a href="https://www.myProjectWebsite.com">
+            <a target="_blank" href="https://www.myProjectWebsite.com">
                 <h5>Project 4</h5>
                 <p>Short description e.g. people who worked on it.</p>
             </a>
@@ -434,17 +434,17 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
 <div class="col-md-3 projects">
     <h3>Projects</h3>
     <ul>
-        <a href="https://www.myProjectWebsite.com">
+        <a target="_blank" href="https://www.myProjectWebsite.com">
             <li>
                 <h5>Name of the project and a simple description</h5>
             </li>
         </a>
-        <a href="https://www.myProjectWebsite.com">
+        <a target="_blank" href="https://www.myProjectWebsite.com">
             <li>
                 <h5>Name of the project and a simple description</h5>
             </li>
         </a>
-        <a href="https://www.myProjectWebsite.com">
+        <a target="_blank" href="https://www.myProjectWebsite.com">
             <li>
                 <h5>Name of the project and a simple description</h5>
             </li>
@@ -494,7 +494,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
             </div>
         </li>
         <li class="publications-li-less">
-            <a href="publication.pdf">
+            <a target="_blank" href="publication.pdf">
                 <h5>Publication title</h5>
                 <p>A short description</p>
             </a>
@@ -502,7 +502,7 @@ You’ll have to change the ID of the inputs and the FOR of the labels for every
     </ul>
     <ul id="pub-2">
         <li class="publications-li-less">
-            <a href="publication.pdf">
+            <a target="_blank" href="publication.pdf">
                 <h5>Publication title</h5>
                 <p>A short description</p>
             </a>
