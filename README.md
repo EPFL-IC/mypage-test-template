@@ -32,7 +32,7 @@ The code is divided into three  parts: <br />
 There are currently 8 files in the blocks folder :
 
 * about.css<br />
-  About block: Write a short description about yourself, your experience and anything you’d like to highlight.
+  About block: Write a short (for a better visual result, between 100 and 170 words) description about yourself, your experience and anything you’d like to highlight.
 * assocations.css <br />
   Assocations block: If you've ever been in a student assocation, add it into this block.
 * awards.css<br />
@@ -146,7 +146,7 @@ Here is a step-by-step tutorial on how to fill basic information on the html fil
 * In the `<footer>`
     Change your info :
     `<p>` *myname* | `<a class="footerLinks" href="mailto:*my.name@epfl.ch*">`my.name@epfl.ch`</a>` | `<a class="footerLinks" href="*https://plan.epfl.ch/?room==BC%20402*">`*BC 402*`</a>` | *Mylab*`</p>`
-* In the `<div class="about">`, Write a short description about yourself, your experience and anything you’d like to highlight.
+* In the `<div class="about">`, Write a short description, for a better visual result, between 100 and 170 words about yourself, your experience and anything you’d like to highlight.
 
 ```
 <div class="about">
@@ -160,6 +160,8 @@ Here is a step-by-step tutorial on how to fill basic information on the html fil
 ```
 
 #### **3. Modular blocks**<br />
+
+You can delete, add or modify blocks as you like, as long as they respect the graphic guidelines.
 
 #### Recent publications<br />
 This block is a spotlight for your two latest publications, the rest will appear in the "publications-more" block.
@@ -535,9 +537,9 @@ The graphic guidelines follow the EPFL guidelines. It ensures that the pages rem
 - Red ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) `#FF0000`
 - Violet ![#5C2483](https://via.placeholder.com/15/5C2483/000000?text=+) `#5C2483`
 
-##### Font
+##### Font & paragraphs
 
-The font to use is arial.
+The font to use is arial. For a better UX, maximum 70-90 characters per line (10-15 words).
 
 ##### Margins
 
