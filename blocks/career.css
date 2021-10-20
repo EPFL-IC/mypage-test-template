@@ -1,81 +1,53 @@
-/* CSS sheet for the "Career" block
-
-The block is separated in 2 parts : the timeline and the biography. Feel free to only use one of those parts. */
 .career {
-  min-height: 40vh;
-  background: #fafafa;
-}
-@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
-.career {
-  min-height:30vh;
-} 
-}
-.career > p {
-  text-align: justify;
-  padding: 5px 15px 5px 5px;
-}
-.career .timeline {
-  height: 12vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start
-}
-.career .timeline img {
-  max-height: 7vh;
-  padding: 8px;
-  width: auto;
-}
-.timeline > div:not(.inBetween) {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.timeline > div {
-  font-size: 0.7vw;
-  height: 6vh;
-  width: 9vw;
-}
-/* CSS for the small collapsible infos that appears if you click in the dates */
-.timeline button {
-  width: 6vw;
-  background: none;
-  border: none;
+  margin: 2rem 0;
+  background: #e6e6e6;
+  padding: 2rem;
 }
 
-.career  button+div, .collapse {
-  background:#f7f7f7;
-  position: relative;
-  z-index: 5;
-  padding: 7px;
+.career ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-/* The .inBetween class is the wire that links the universities in the timeline part */
-.career .inBetween {
-  align-self: center;
-  height: 4px;
-  width: 30%;
-  background: #242424;
+
+.career li {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1.5rem;
 }
-/*Responsive */ 
-@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1) {
-  .career {
-    width: 90vw;
-  }
-  .career .logo-carrer {
-    max-width: 16vw;
-    height: auto;
-  }
-  .timeline div{
-    font-size: 3vw;
-    width: 20vw;
-  }
-  .timeline button {
-    width: 17vw;
-  }
-  .timeline {
-    margin-bottom: 5vh;
-  }
-  .career > p {
-    text-align: left;
-    hyphens: auto;
+
+.career li:not(:first-child) {
+  padding-top: 1.5rem;
 }
+
+.career li:last-child {
+  border-bottom: none;
+}
+
+.career-infos {
+  padding-left: 2rem;
+}
+
+.career-logo {
+  width: 80px; 
+}
+
+.career-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.career img {
+  width: 80px;
+  height: auto;
+}
+
+.career-infos-title {
+  margin-bottom: 0;
+}
+
+.career-infos-desc {
+  margin: 1rem 0 0;
+  font-size: 0.8rem
 }

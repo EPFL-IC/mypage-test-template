@@ -2,386 +2,530 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<!-- Title of your page -->
-	<title>Samuel Hayden | Research Scientist at CHILI</title>
-	<link rel="icon" href="img/fixed/favicon.ico">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link href="blocks\publications.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\about.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\awards.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\career.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\press-coverage.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\projects.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\z-edit-at-your-own-risk_publications-popup.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\z-edit-at-your-own-risk_projects-read-more.css" rel="stylesheet" type="text/css" />
-	<link href="blocks\associations.css" rel="stylesheet" type="text/css" />
-	<link href="fixed.css" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
-	</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Hayden | Research Scientist at CHILI</title>
+  <link rel="icon" href="img/fixed/favicon.ico">
+  <link rel="stylesheet" href="https://web2018.epfl.ch/5.1.1/css/elements.min.css">
+  <link rel="stylesheet" href="./blocks/layout.css">
+  <link rel="stylesheet" href="./blocks/about.css">
+  <link rel="stylesheet" href="./blocks/publications.css">
+  <link rel="stylesheet" href="./blocks/awards.css">
+  <link rel="stylesheet" href="./blocks/career.css">
+  <link rel="stylesheet" href="./blocks/projects.css">
+  <link rel="stylesheet" href="./blocks/press-coverages.css">
+  <link rel="stylesheet" href="./blocks/associations.css">
 </head>
-
+<!-- @TO DO ADD EXPLICATION USER COMMENTS-->
 <body>
-	<header id="header" class="header">
-		<a target="_blank" href="https://epfl.ch">
-			<img src="img\fixed\EPFL_Logo_Digital_RGB_PROD.png" id="epflLogo">
-		</a>
-		<div id="backgroundProfil"></div>
-		<!-- Your Photo -->
-		<img src="img\fixed\photo_profil.png" id="profilPicture">
-		<!-- Your name -->
-		<h2>Samuel Hayden</h2>
-		<div id="mainInfos">
-			<a>
-				<img id="facultyLogo" src="img\fixed\epflFacultyLogo.png">
-			</a>
-			<p>
-				<!-- Your title and lab -->
-				<strong>Research Scientist</strong> at <a target="_blank" href="https://www.epfl.ch/labs/chili/">Computer-Human Interaction Lab for Learning & Instruction</a>
-			</p>
-			<div id="separateur"></div>
-			<div id="contact">
-				<!-- Name and email address --> <a href="mailto:samuel.hayden@epfl.ch">Samuel Hayden</a>
-				<!-- Tel --> <a href="tel:+41791234567">+41 79 123 45 67</a>
-				<!-- Location in campus --> <a href="https://plan.epfl.ch/?room==BC%20402">BC 402</a>
-				<!-- Postal address --> <a href="https://www.epfl.ch/labs/chili/contact/">EPFL, IC, CHILI,<wbr> Station 14 <br> CH 1015 Lausanne <wbr> 	Switzerland</a>
-			</div>
-		</div>
-	</header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 about">
-				<h3>About</h3>
-				<!-- Write some lines about you, your experiences and everything you want -->
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, maxime illo! Quidem adipisci ipsam iste quo? Nihil ullam ex harum modi, exercitationem debitis, at doloremque ratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eumratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eumratione distinctio dolorem corrupti magnam dolor sit amet consectetur adipisicing elit. Placeat culpa consequuntur et perspiciatis error sapiente natus earum eaque magni sit. Porro ullam officiis repudiandae sit dignissimos temporibus illum eum libero.</p>
-			</div>
-			<!-- This block is a spotlight for your two latest publications, the rest will be on the "publications-more" block -->
-			<div class="col-md-2 publications-recent">
-				<h3>Recent Publications</h3>
-				<div class="col-6">
-					<a href="#popup1">
-						<!-- Highlighted image of your latest publication -->
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<!-- Name of your latest publication -->
-						<h5>Highlight 1</h5>
-						<!-- a short description of your latest publication -->
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
-					</a>
-				</div>
-				<div class="col-6">
-					<a href="#popup2">
-						<!-- Same as the other highlight -->
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<h5>Highlight 1</h5>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, impedit.</p>
-					</a>
-					<!-- A button to go to your other publication -->
-				</div> <a href="#publications-more">More publications... ></a>
-			</div>
-			<!-- Here you can add awards if you got some -->
-			<div class="col-md-2 awards">
-				<h3>Awards</h3>
-				<ul>
-					<li>Lorem, ipsum dolor sit amet consectetur</li>
-					<li>Lorem, ipsum dolor sit amet consectetur</li>
-					<li>Lorem, ipsum dolor sit amet consectetur</li>
-					<li>Lorem, ipsum dolor sit amet consectetur</li>
-				</ul>
-			</div>
-			<!-- Here you can add magazines or newspaper if you appeared into some -->
-			<div class="col-md-2 press-coverage">
-				<h3>Press coverages</h3>
-				<!-- Add the link in the "href" attribute and the logo of the magazine in the "src" attribute -->
-				<a target=_blank href="epfl.ch">
-					<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/The_New_York_Times_Logo.svg/1280px-The_New_York_Times_Logo.svg.png">
-				</a>
-				<a target=_blank href="epfl.ch">
-					<img class="img-responsive" src="http://logos-download.com/wp-content/uploads/2016/05/Forbes_logo_black.png">
-				</a>
-				<a target=_blank href="epfl.ch">
-					<img class="img-responsive" src="https://www.meaforensic.com/wp-content/uploads/2018/06/spar3d_expo_rgb_horiz-1024x228.jpg">
-				</a>
-				<a target=_blank href="epfl.ch">
-					<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/MIT_Technology_Review_logo.svg/1200px-MIT_Technology_Review_logo.svg.png">
-				</a>
-			</div>
-		</div>
-		<div class="row">
-			<!-- Here you can resume your career, you can delete the timeline or only add one university and delete the others if you want-->
-			<div class="col-md-3 career">
-				<h3>Career</h3>
-				<div class="timeline">
-					<div>
-						<!-- Put the university logo in the href -->
-						<img class="logo-carrer" src="http://logosandbrands.directory/wp-content/themes/directorypress/thumbs/Carrier-University-logo.jpg">
-						<!-- The date you were in -->
-						<button data-toggle="collapse" data-target="#career1">2008 - 2011 v</button>
-						<!-- A short description of what you were doing here -->
-						<div id="career1" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, amet?</div>
-					</div>
-					<div class="inBetween"></div>
-					<div>
-						<img class="logo-carrer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_the_University_of_Oxford.svg/150px-Coat_of_arms_of_the_University_of_Oxford.svg.png">
-						<button data-toggle="collapse" data-target="#career2">2011 - 2016 v</button>
-						<div id="career2" class="collapse">Lorem ipsum dolor sit amet.</div>
-					</div>
-					<div class="inBetween"></div>
-					<div>
-						<img class="logo-carrer" src="https://tse2.mm.bing.net/th?id=OIP.kOdvgcyvNZOEgIj0wGjGjgHaHa&pid=Api">
-						<button data-toggle="collapse" data-target="#career3">2016 - 2017 v</button>
-						<div id="career3" class="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-					</div>
-					<div class="inBetween"></div>
-					<div style="margin-left: -15px;">
-						<img class="logo-carrer" src="https://actu.epfl.ch/static/upload/fckeditorimage/ba/69/91561aed.jpg">
-						<button data-toggle="collapse" data-target="#career4">2017 - Now v</button>
-						<div id="career4" class="collapse">Lorem ipsum dolor sit amet consectetur.</div>
-					</div>
-				</div>
-				<!-- Here you can resume your career -->
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quidem molestias architecto optio dolor voluptatem deleniti, explicabo obcaecati voluptas quo ea nobis. Vitae ipsa corrupti pariatur omnis ratione? Facilis repudiandae possimus illo? Ex modi autem provident voluptatem corporis dicta id aliquam! Nisi impedit veritatis est nulla molestias commodi ullam nobis eos velit! Eligendi officiis optio dolorum dolor architecto minima consequatur tempore, tenetur temporibus corrupti dolores error non sint ut eius iste officia veritatis. Id, at minus iste cumque saepe iure distinctio inventore eius animi tenetur. Aut tenetur quo molestiae voluptatibus maiores laboriosam nulla laudantium consequatur praesentium non iusto expedita pariatur nihil magni.</p>
-			</div>
-			<!-- Here you can add some projects you worked on -->
-			<div class="col-md-3 projects">
-				<h3>Projects</h3>
-				<a target=_blank href="https://epfl.ch">
-					<div class="col-xs-6">
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<h5>Highlight 1</h5>
-						<p>Lorem ipsum dolor amet adipisicing elit. Culpa dicta quod ipsam doloribus.</p>
-					</div>
-				</a>
-				<a target=_blank href="https://epfl.ch">
-					<div class="col-xs-6">
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<h5>Highlight 1</h5>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
-					</div>
-				</a>
-				<a target=_blank href="https://epfl.ch">
-					<div class="col-xs-6">
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<h5>Highlight 1</h5>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
-					</div>
-				</a>
-				<a target=_blank href="https://epfl.ch">
-					<div class="col-xs-6">
-						<img class="img-responsive" src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png">
-						<h5>Highlight 4</h5>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cumque?</p>
-					</div>
-				</a>
-			</div>
-			<div class="publications-more col-md-4" id="publications-more">
-				<h3>Publications</h3>
-				<ul id="pub-1">
-					<li>
-						<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
-						<a href="#popup1">
-							<div class="ctn-img">
-								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/6b/6e/6b6ed9a19d4107f9fd90395f843bd000.jpg">
-							</div>
-							<!-- Name of your publication-->
-							<h5>Slope-Space Integrals for Specular Next Event Estimation</h5>
-							<!-- Insert here the people who worked along you on this publications, or an under title-->
-							<p>Guillaume Loubet, Tizian Zeltner, Nicolas Holzschuch, and Wenzel Jakob In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
-						</a>
-						<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
-						<div id="popup1" class="overlay popup">
-							<div class="content"> <a class="close" href="#section">&times;</a>
-								<!-- Name of your publication-->
-								<h1 id="popupH2">Slope-Space Integrals for Specular Next Event Estimation</h1>
-								<div class="buttons-publications">
-									<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
-									</button>
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
-									</button>
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
-									</button>
-								</div>
-								<p> <strong>Abstract</strong>
-									<br>Monte Carlo light transport simulations often lack robustness in scenes containing specular or near-specular materials. Widely used uni- and bidirectional sampling strategies tend to find light paths involving such materials with insufficient probability, producing unusable images that are contaminated by significant variance.
-									<br>This article addresses the problem of sampling a light path connecting two given scene points via a single specular reflection or refraction, extending the range of scenes that can be robustly handled by unbiased path sampling techniques. Our technique enables efficient rendering of challenging transport phenomena caused by such paths, such as underwater caustics or caustics involving glossy metallic objects.
-									<br>
-									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Loubet2020Slope_teaser.jpg" alt="a work">
-									<br>
-									<br>We derive analytic expressions that predict the total radiance due to a single reflective or refractive triangle with a microfacet BSDF and we show that this reduces to the well known Lambert boundary integral for irradiance. We subsequently show how this can be leveraged to efficiently sample connections on meshes comprised of vast numbers of triangles. Our derivation builds on the theory of off-center microfacets and involves integrals in the space of surface slopes.
-									<br>Our approach straightforwardly applies to the related problem of rendering glints with high-resolution normal maps describing specular microstructure. Our formulation alleviates problems raised by singularities in filtering integrals and enables a generalization of previous work to perfectly specular materials. We also extend previous work to the case of GGX distributions and introduce new techniques to improve accuracy and performance.</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<!-- in order to make more popups, you need to change the href "#popup1" to "#popup2" for the second, "#popup3" for the third, ...-->
-						<a href="#popup2">
-							<div class="ctn-img">
-								<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/cache/77/c9/77c9d53a2ca43fccf378c022d6d2179f.jpg" />
-							</div>
-							<!-- Name of your publication-->
-							<h5>A General Framework for Pearlescent Materials</h5>
-							<p>Ibón Guillén, Julio Marco, Diego Gutierrez, Wenzel Jakob, and Adrien Jarabo In Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</p>
-						</a>
-						<!-- Insert here the people who worked alongside you on this publications, or an under title-->
-						<div id="popup2" class="overlay popup">
-							<!-- You need to change the id "popup1" to "popup2" for the second, "popup3" for the third, ... here as well-->
-							<div class="content"> <a class="close" href="#section">&times;</a>
-								<h1 id="popupH2">A General Framework for Pearlescent Materials</h1>
-								<!-- Name of your publication-->
-								<div class="buttons-publications">
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">PDF</a>
-									</button>
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something</a>
-									</button>
-									<button type="button"><a target="_blank" href="https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Loubet2020Slope.pdf">Something other</a>
-									</button>
-								</div>
-								<!-- Into those 3 buttons (you can delete them or add some as your wishes) you can add a link to the paper in PDF, additionnal informations, videos, ...-->
-								<p> <strong>Abstract</strong>
-									<br />The unique and visually mesmerizing appearance of pearlescent materials has made them an indispensable ingredient in a diverse array of applications including packaging, ceramics, printing, and cosmetics. In contrast to their natural counterparts, such synthetic examples of pearlescence are created by dispersing microscopic interference pigments within a dielectric resin. The resulting space of materials comprises an enormous range of different phenomena ranging from smooth lustrous appearance reminiscent of pearl to highly directional metallic gloss, along with a gradual change in color that depends on the angle of observation and illumination. All of these properties arise due to a complex optical process involving multiple scattering from platelets characterized by wave-optical interference. This article introduces a flexible model for simulating the optics of such pearlescent 3D microstructures. Following a thorough review of the properties of currently used pigments and manufacturing-related effects that influence pearlescence, we propose a new model which expands the range of appearance that can be represented, and closely reproduces the behavior of measured materials, as we show in our comparisons. Using our model, we conduct a systematic study of the parameter space and its relationship to different aspects of pearlescent appearance. We observe that several previously ignored parameters have a substantial impact on the material's optical behavior, including the multi-layered nature of modern interference pigments, correlations in the orientation of pigment particles, and variability in their properties (e.g.~thickness). The utility of a general model for pearlescence extends far beyond computer graphics: inverse and differentiable approaches to rendering are increasingly used to disentangle the physics of scattering from real-world observations. Our approach could inform such reconstructions to enable the predictive design of tailored pearlescent materials.
-									<br>
-									<img src="https://rgl.s3.eu-central-1.amazonaws.com/media/images/papers/Guillen2020Pearlescent_teaser.jpg" alt="a work" />
-									<br/>
-									<br/>
-								</p>
-							</div>
-						</div>
-					</li>
-					<li class="publications-li-less">
-						<a target=_blank href="paper.pdf">
-							<h5>A paper without image or popup A paper without image or popup </h5>
-							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
-						</a>
-					</li>
-					<li class="publications-li-less">
-						<a target=_blank href="paper.pdf">
-							<h5>A paper without image or popup </h5>
-							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
-						</a>
-					</li>
-					<li class="publications-li-less">
-						<a target=_blank href="paper.pdf">
-							<h5>A paper without image or popup A paper without image or popup A paper without image or popup A paper without image or popup </h5>
-							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
-						</a>
-					</li>
-				</ul>
-				<ul id="pub-2">
-					<li class="publications-li-less">
-						<a target=_blank href="paper.pdf">
-							<h5>A paper without image or popup </h5>
-							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
-						</a>
-					</li>
-					<li class="publications-li-less">
-						<a target=_blank href="paper.pdf">
-							<h5>A paper without image or popup </h5>
-							<p>Here is a paper without an image to illustrate it and with no popup to resume it - only a link to the paper</p>
-						</a>
-					</li>
-				</ul>
-				<div id="nav-pub-buttons">
-					<button id="nav-pub-btn-1" onclick="navDiv1()">1</button>
-					<button id="nav-pub-btn-2" onclick="navDiv2()">2</button>
-				</div>
-			</div>
-		</div>
-    <div class="row">
-			<!-- Here you can add projects you worked on -->
-      <div class="col-md-3 projects">
-						<h3>Projects</h3>
-						<ul id="pro-1">
-							<li>
-								<a target=_blank href="https://rgl.epfl.ch/software/Tekari">
-									<h5>zksk</h5>
-									<p>W. Lueks, B. Kulynych, J. Fasquelle, S. L. Bail-Collet, and C. Troncoso</p>
-								</a>
-								<input type="checkbox" class="read-more-state" id="downMore-1" />
-								<p class="read-more">zksk (Zero-knowledge Swiss Knife) is a library for easily defining and computing zero-knowledge proofs. Developers define proofs using a simple yet powerful Python DSL that resembles Camenisch-Stadler notation that is often used in academic publications. Moreover, zksk defines higher level zero-knowledge building blocks such as range proofs, and proofs of signatures.</p>
-								<label for="downMore-1" class="read-more-trigger"></label>
-							</li>
-							<li>
-								<a target=_blank href="https://rgl.epfl.ch/software/Tekari">
-									<h5>Lightnion</h5>
-									<p>W. Lueks, M. Daumas, and C. Troncoso</p>
-								</a>
-								<input type="checkbox" class="read-more-state" id="downMore-2" />
-								<p class="read-more">Lightnion is a Javascript anonymous communication library that provides anonymous communication for web applications, providing seamless anonymity for users. It uses the existing Tor network. The library provides a convenient interface to make anonymous GET/POST requests to facilitate easy integration. Lightnion consists of a browser-side Javascript Tor client and a proxy that facilitates communication between browsers and the Tor network.</p>
-								<label for="downMore-2" class="read-more-trigger"></label>
-							</li>
-						</ul>
-            <ul id="pro-2">
-							<li>
-								<a target=_blank href="https://rgl.epfl.ch/software/Tekari">
-									<h5>IRMA</h5>
-									<p>G. Alpár, F. van der Broek, B. Hampiholi, B. Jacobs, W. Lueks, and S. Ringers</p>
-								</a>
-								<input type="checkbox" class="read-more-state" id="downMore-3" />
-								<p class="read-more">While I was a PhD student in Nijmegen, The Netherlands, I worked extensively on IRMA. A system designed to provide easy-to-use attribute-based credentials to users and organizations. I helped develop and design large parts of the initial IRMA Android smartphone application and frontend and backend. Since then, the team has continue to improve the application, including supporting iOS and moving to a different cryptographic backend. See here for the latest work.</p>
-								<label for="downMore-3" class="read-more-trigger"></label>
-							</li>
-							<li>
-								<a target=_blank href="https://rgl.epfl.ch/software/Tekari">
-									<h5>Percy++ PIR library</h5>
-									<p>W. Lueks and I. Goldberg</p>
-								</a>
-								<input type="checkbox" class="read-more-state" id="downMore-4" />
-								<p class="read-more">At the University of Waterloo I worked on speeding up information-theoretic private information retrieval. When the server processes queries in batches, it can do faster than if it were to processes the queries one by one. We integrated these improvements into the Percy++ library</p>
-								<label for="downMore-4" class="read-more-trigger"></label>
-							</li>
-						</ul>
-						<!-- pagination -->
-            <div id="nav-pub-buttons">
-					    <button id="nav-pro-btn-1" onclick="navPro1()">1</button>
-					    <button id="nav-pro-btn-2" onclick="navPro2()">2</button>
+  <main>
+    <header class="header header-light">
+
+      <div class="drawer mr-3 mr-xl-0">
+        <button class="drawer-toggle" aria-hidden="true">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-chevron-right"></use>
+          </svg>
+        </button>
+        <a href="//www.epfl.ch" class="drawer-link">
+          <span class="text">
+            Go to main site
+          </span>
+        </a>
+      </div>
+
+      <div class="header-light-content">
+        <a class="logo" href="//www.epfl.ch">
+          <img src="./img/fixed/EPFL_logo.png" alt="Logo EPFL, Ecole polytechnique fédérale de Lausanne"
+            class="img-fluid">
+        </a>
+        <h1>School of Computer and Communication Sciences IC</h1>
+      </div>
+
+    </header>
+    <section class="container-fluid portrait">
+      <div class="row">
+        <div class="col-md-6 nopadding">
+          <div class="portrait-image">
+            <picture>
+              <img src="https://source.unsplash.com/X6Uj51n5CE8" class="img-fluid" alt="image description">
+            </picture>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="h1 portrait-name">Samuel Hayden</h2>
+          <h3 class="h2 portrait-title people-title">Research Scientist at Computer-Human Interaction Lab for Learning &
+            Instruction</h3>
+          <div class="portrait-infos">
+            <a href="mailto:samuel.hayden@epfl.ch" class="btn btn-sm btn-primary">samuel.hayden@epfl.ch</a>
+            <a href="tel:+41791234567" class="btn btn-sm btn-secondary">+41 79 123 45 67</a>
+            <a href="https://plan.epfl.ch/?room==BC%20402" class="btn btn-sm btn-secondary"> BC 402 </a>
+          </div>
+          <a href="https://www.epfl.ch/labs/chili/contact/" class="portrait-infos-address">EPFL, IC, CHILI,<wbr> Station 14
+            <br> CH 1015 Lausanne
+            <wbr>Switzerland</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="about">
+              <h3>About</h3>
+              <!-- Write some lines about you, your experiences and everything you want -->
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                vitae,
+                justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+                semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+                eleifend
+                ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
+                metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                rhoncus,
+                sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
+                pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                venenatis faucibus. Nullam quis ante.</p>
             </div>
+            <div class="awards">
+              <h3>Awards</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Computer science</li>
+                <li class="list-group-item">Communication systems</li>
+              </ul>
+            </div>
+            <div class="projects">
+              <h3>Projets</h3>
+
+              <button class="collapse-title collapse-title-desktop collapsed" type="button" data-toggle="collapse"
+                data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                Lightnion
+              </button>
+
+              <div class="collapse collapse-item collapse-item-desktop" id="collapse-1">
+                <h4 class="projects-subtitle">Equipe:</h4>
+                <span>W. Lueks, M. Daumas, and C. Troncoso</span>
+                <h4 class="projects-subtitle">Description:</h4>
+                <p>Lightnion is a Javascript anonymous communication library that provides anonymous communication for
+                  web applications, providing seamless anonymity for users. It uses the existing Tor network. The
+                  library provides a convenient interface to make anonymous GET/POST requests to facilitate easy
+                  integration. Lightnion consists of a browser-side Javascript Tor client and a proxy that facilitates
+                  communication between browsers and the Tor network.</p>
+              </div>
+
+              <button class="collapse-title collapse-title-desktop collapsed" type="button" data-toggle="collapse"
+                data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                Silent Spring
+              </button>
+
+              <div class="collapse collapse-item collapse-item-desktop" id="collapse-2">
+                <h4 class="projects-subtitle">Equipe:</h4>
+                <span>W. Lueks, M. Daumas, and C. Troncoso</span>
+                <h4 class="projects-subtitle">Description:</h4>
+                <p>Lightnion is a Javascript anonymous communication library that provides anonymous communication for
+                  web applications, providing seamless anonymity for users. It uses the existing Tor network. The
+                  library provides a convenient interface to make anonymous GET/POST requests to facilitate easy
+                  integration. Lightnion consists of a browser-side Javascript Tor client and a proxy that facilitates
+                  communication between browsers and the Tor network.</p>
+              </div>
+
+              <button class="collapse-title collapse-title-desktop collapsed" type="button" data-toggle="collapse"
+                data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                The Hitchhiker's Guide to the Galaxy
+              </button>
+
+              <div class="collapse collapse-item collapse-item-desktop" id="collapse-3">
+                <p>Book by Douglas Adams, 1978–80 — The Hitchhiker's Guide to the Galaxy (sometimes referred to as HG2G,
+                  HHGTTG or H2G2) is a comedy science fiction series created by Douglas Adams. Originally a radio comedy
+                  broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, including stage shows,
+                  novels,
+                  comic books, a 1981 TV series, a 1984 video game, and 2005 feature film.</p>
+              </div>
+            </div>
+            <div class="associations">
+              <h3>Associations</h3>
+              <div class="associations-list">
+                <a href="#" class="card link-trapeze-horizontal">
+                  <div class="card-body">
+                    <div class="associations-logo">
+                      <img src="https://agepoly.ch/wp-content/themes/agepoly/resources/Horizontal_-_AI_-_AGEPoly.svg" alt="logo agepoly" />
+                    </div>
+                    <h4 class=" h5 card-title">President à l'AGEPoly EPFLL</h4>
+                      <p class="text-muted small">2020 - 2021</p>
+                      <div class="card-info card-info-bordered">
+                        <span>Association des étudiants de l'EPFL</span>
+                      </div>
+                      <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur</p>
+                    </div>
+                </a>
+                <a href="#" class="card link-trapeze-horizontal">
+                  <div class="card-body">
+                    <div class="associations-logo">
+                      <img src="https://clic.epfl.ch/img/logo.png" />
+                    </div>
+                    <h4 class="h5 card-title">Coach à CLIC EPFL</h4>
+                    <p class="text-muted small">2020 - Now</p>
+                    <div class="card-info card-info-bordered">
+                      <span>Association des étudiants en informatique et communication</span>
+                    </div>
+                    <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="career">
+              <h3>Career</h3>
+              <ul>
+                <li>
+                  <div class="carrer-logo">
+                    <img
+                      src="http://logosandbrands.directory/wp-content/themes/directorypress/thumbs/Carrier-University-logo.jpg">
+                  </div>
+                  <div class="career-infos">
+                    <h4 class="career-infos-title">Carrier-University</h4>
+                    <span class="career-infos-date">2018-2020</span>
+                    <p class="career-infos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                      amet</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="carrer-logo">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.kOdvgcyvNZOEgIj0wGjGjgHaHa&pid=Api">
+                  </div>
+                  <div class="career-infos">
+                    <h4 class="career-infos-title">Carrier-University</h4>
+                    <span class="career-infos-date">2018-2020</span>
+                    <p class="career-infos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                      amet</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="carrer-logo">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_the_University_of_Oxford.svg/150px-Coat_of_arms_of_the_University_of_Oxford.svg.png">
+                  </div>
+                  <div class="career-infos">
+                    <h4 class="career-infos-title">Carrier-University</h4>
+                    <span class="career-infos-date">2018-2020</span>
+                    <p class="career-infos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                      amet</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="carrer-logo">
+                    <img src="https://actu.epfl.ch/static/upload/fckeditorimage/ba/69/91561aed.jpg">
+                  </div>
+                  <div class="career-infos">
+                    <h4 class="career-infos-title">École Polytechnique Fédérale de Lausanne</h4>
+                    <span class="career-infos-date">2018- aujourd'hui</span>
+                    <p class="career-infos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                      amet</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="highlight-publications">
+              <h3>Recent publication</h3>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-teaser link-trapeze-vertical">
+                  <div class="list-group-teaser-container">
+                    <div class="list-group-teaser-thumbnail">
+                      <picture>
+                        <img src="https://via.placeholder.com/570x321.jpg" class="img-fluid" alt="image description">
+                      </picture>
+                    </div>
+                    <div class="list-group-teaser-content" itemscope itemtype="http://schema.org/Article">
+                      <p class="h5" itemprop="name">Physics: new e-books for the AIAA Education Series</p>
+                      <p>
+                        <time datetime="2018-03-26" itemprop="datePublished"><span
+                            class="sr-only">Published:</span>26.03.2018</time>
+                        <span class="text-muted" itemprop="description">— Lorem ipsum dolor sit amet, consectetur
+                          adipiscing
+                          elit. Si enim ad populum me vocas, eum. Quid enim me prohiberet
+                          Epicureum esse, si probarem, quae ille diceret?</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-teaser link-trapeze-vertical">
+                  <div class="list-group-teaser-container">
+                    <div class="list-group-teaser-thumbnail">
+                      <picture>
+                        <img src="https://via.placeholder.com/570x321.jpg" class="img-fluid" alt="image description">
+                      </picture>
+                    </div>
+                    <div class="list-group-teaser-content" itemscope itemtype="http://schema.org/Article">
+                      <p class="h5" itemprop="name">Physics: new e-books for the AIAA Education Series</p>
+                      <p>
+                        <time datetime="2018-03-26" itemprop="datePublished"><span
+                            class="sr-only">Published:</span>26.03.2018</time>
+                        <span class="text-muted" itemprop="description">— Lorem ipsum dolor sit amet, consectetur
+                          adipiscing
+                          elit. Si enim ad populum me vocas, eum. Quid enim me prohiberet
+                          Epicureum esse, si probarem, quae ille diceret?</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="press-coverages">
+              <h3>Press coverages</h3>
+              <!-- Add the link in the "href" attribute and the logo of the magazine in the "src" attribute -->
+              <div>
+                <a target="_blank" href="epfl.ch">
+                  <img class="img-responsive"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/The_New_York_Times_Logo.svg/1280px-The_New_York_Times_Logo.svg.png">
+                </a>
+                <a target="_blank" href="epfl.ch">
+                  <img class="img-responsive"
+                    src="http://logos-download.com/wp-content/uploads/2016/05/Forbes_logo_black.png">
+                </a>
+                <a target="_blank" href="epfl.ch">
+                  <img class="img-responsive"
+                    src="https://www.meaforensic.com/wp-content/uploads/2018/06/spar3d_expo_rgb_horiz-1024x228.jpg">
+                </a>
+                <a target="_blank" href="epfl.ch">
+                  <img class="img-responsive"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/MIT_Technology_Review_logo.svg/1200px-MIT_Technology_Review_logo.svg.png">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="publications">
+      <div class="container">
+        <h3>Publications</h3>
+        <div class="card-slider-wrapper">
+          <div class="card-slider">
+            <div class="card-slider-cell card-slider-cell-lg">
+              <a href="#" class="card card-gray link-trapeze-horizontal" itemscope itemtype="http://schema.org/Event">
+                <div class="card-body">
+                  <picture class="card-img-top">
+                    <img src="https://source.unsplash.com/1600x900/?nature" class="img-fluid" title="Image title"
+                      alt="Image alt description" />
+                  </picture>
+
+                  <h4 class="card-title" itemprop="name">EPFL Drone Days 2018 dates have been announced!</h4>
+                  <p>From 1 to 3 September 2018, more than 5,000 people will be treated to drone races, a robotics
+                    showcase, a conference and demonstrations on the EPFL's campus. Attendees will enjoy 3 days of
+                    thrilling races over the middle of campus, including a night race lit by LEDs and the finals of
+                    the Swiss Rotor Sports Association (SRSA).</p>
+                  <div class="card-info">
+                    <span class="card-info-date" itemprop="startDate" content="2018-01-10T12:00">10.01.2018</span>
+                    <span>13:00</span>
+                    <span>17:30</span>
+                    <p>
+                      <span itemprop="performer" itemscope itemtype="http://schema.org/performer">
+                        Avec <b>Prof. Dr. Aditya Mueller</b>
+                      </span>
+                      <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <br>
+                        Lieu : <b>Laboratoire ALICE</b><br>Organisé par <b>Campus Farmers (Unipoly)</b><br>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-slider-cell">
+              <a href="#" class="card card-gray card-grayscale link-trapeze-horizontal bg-gray-100" itemscope
+                itemtype="http://schema.org/Event">
+                <div class="card-body">
+                  <picture class="card-img-top">
+                    <img src="https://source.unsplash.com/1600x900/?nature" class="img-fluid" title="Image title"
+                      alt="Image alt description" />
+                  </picture>
+                  <h4 class="card-title" itemprop="name"><span class="badge badge-dark badge-sm">Just finished</span>
+                    Startup Acceleration Workshops
+                  </h4>
+                  <div class="card-info">
+                    <span class="card-info-date" itemprop="startDate" content="2018-01-10T12:00">10.01.2018</span>
+                    <span>13:00</span>
+                    <span>17:30</span>
+                    <p>
+                      <span itemprop="performer" itemscope itemtype="http://schema.org/performer">
+                        Avec <b>Prof. Dr. Aditya Mueller</b>
+                      </span>
+                      <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <br>
+                        Lieu : <b><span itemprop="name">ArtLab EPFL</span></b>
+                        <br> Catégorie : <b>Événements culturel</b>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-slider-cell">
+              <div class="card card-gray">
+                <div class="card-body">
+                  <a href="#" class="card-img-top">
+                    <picture>
+                      <img src="https://source.unsplash.com/1600x900/?nature" class="img-fluid"
+                        title="professor Xile Hu" alt="a portrait of professor Xile Hu" />
+                    </picture>
+                  </a>
+                  <h4 class="card-title">
+                    <a href="#">EuroTechPostdoc Programme: application platform is now open!</a>
+                  </h4>
+                  <div class="card-info">
+                    <span>Researchers can apply until Feb. 28, 2018</span>
+                  </div>
+                </div>
+                <div class="card-footer mt-auto">
+                  <a href="#" class="btn btn-primary btn-sm">Learn more & apply</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-slider-cell">
+              <a href="#" class="card card-gray link-trapeze-horizontal" itemscope itemtype="http://schema.org/Event">
+                <div class="card-body">
+                  <picture class="card-img-top">
+                    <img src="https://source.unsplash.com/1600x900/?nature" class="img-fluid" title="Image title"
+                      alt="Image alt description" />
+                  </picture>
+                  <h4 class="card-title" itemprop="name">Startup Acceleration Workshops</h4>
+                  <div class="card-info">
+                    <span class="card-info-date" itemprop="startDate" content="2018-01-10T12:00">10.01.2018</span>
+                    <span>13:00</span>
+                    <span>17:30</span>
+                    <p>
+                      <span itemprop="performer" itemscope itemtype="http://schema.org/performer">
+                        Avec <b>Prof. Dr. Aditya Mueller</b>
+                      </span>
+                      <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <br>
+                        Lieu : <b><span itemprop="name">ArtLab EPFL</span></b>
+                        <br> Catégorie : <b>Événements culturel</b>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-slider-footer">
+            <div>
+              <button role="button" id="card-slider-prev" class="card-slider-btn link-trapeze-horizontal disabled">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-chevron-left" viewbox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                </svg>
+              </button>
+              <button role="button" id="card-slider-next" class="card-slider-btn link-trapeze-horizontal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-chevron-right" viewbox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="pt-5 mt-auto">
+    <div class="container"> 
+      <footer class="footer-light">
+        <div class="row">
+          <div class="col-6 mx-auto mx-md-0 mb-4 col-md-3 col-lg-2">
+            <a href="www.epfl.ch" target="_blank">
+              <img src="./img/fixed/EPFL_logo.png" alt="Logo EPFL, Ecole polytechnique fédérale de Lausanne"
+                class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-9 col-lg-10 mb-4">
+            <div class="ml-md-2 ml-lg-5">
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">Contact</li>
+                <li class="list-inline-item text-muted pl-3"><small>EPFL CH-1015 Lausanne</small></li>
+                <li class="list-inline-item text-muted pl-3"><small>+41 21 693 11 11</small></li>
+              </ul>
+              <p class="footer-light-socials">
+                <small>Follow the pulses of EPFL on social networks</small>
+                <span>
+                  <a href="https://www.facebook.com/epflcampus"
+                    class="social-icon social-icon-facebook social-icon-negative" rel="noopener" target="_blank">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                      <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                    </svg>
+                    <span class="sr-only">Follow us on Facebook.</span>
+                  </a>
+                  <a href="https://twitter.com/epfl_en" class="social-icon social-icon-twitter social-icon-negative"
+                    rel="noopener" target="_blank">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                      <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg>
+                    <span class="sr-only">Follow us on Twitter.</span>
+                  </a>
+                  <a href="https://instagram.com/epflcampus"
+                    class="social-icon social-icon-instagram social-icon-negative" rel="noopener" target="_blank">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    <span class="sr-only">Follow us on Instagram.</span>
+                  </a>
+                  <a href="https://www.youtube.com/user/epflnews"
+                    class="social-icon social-icon-youtube social-icon-negative" rel="noopener" target="_blank"> 
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                  </a>
+                  <a href="https://www.linkedin.com/school/epfl/"
+                    class="social-icon social-icon-linkedin social-icon-negative" rel="noopener" target="_blank">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                    <span class="sr-only">Follow us on LinkedIn.</span>
+                  </a>
+                </span>
+              </p>
+              <div class="footer-legal">
+                <div class="footer-legal-links">
+                  <a href="//www.epfl.ch/accessibility.en.shtml">Accessibility</a>
+                  <a href="//www.epfl.ch/about/overview/overview/regulations-and-guidelines/">Legal notice</a>
+                  <a href="//go.epfl.ch/privacy-policy/">Privacy Policy</a>
+                </div>
+                <div>
+                  <p>&copy; 2021 EPFL, all rights reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <button id="back-to-top" class="btn btn-primary btn-back-to-top">
+        <span class="sr-only">Back to top</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up"
+          viewbox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg>
+      </button>
+
     </div>
-		<div class="associations col-md-3">
-			<h3>Associations</h3>
-			<!--> to add more association, in the input, change the id with assoc-n, and in the label, change the for with assoc-n as n is the position of the association in the block, /!\ There can't be two associations with the same numbers. -->
-				<div class="associations-child">
-					<input id="assoc-1" type="radio" name="tabs">
-					<label for="assoc-1" ><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
-					<div class="assoc-content">
-						<p>The CLIC is the Computer Science and Communications Student Association of the École Polytechnique Fédérale de Lausanne (EPFL). <br> During my time at the CLIC I was in charge of the following tasks : <br></p>
-						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
-					</div>
-				</div>
-				<div class="associations-child">
-					<input id="assoc-2" type="radio" name="tabs">
-					<label for="assoc-2"><img src="https://agepoly.ch/wp-content/themes/agepoly/resources/Horizontal_-_AI_-_AGEPoly.svg"><span>2019 - 2020<br>President, AGEPoly EPFL</span></label>
-					<div class="assoc-content">
-						<p>AgePoly is the student association of the EPFL.</p>
-						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
-					</div>
-				</div>
-				<div class="associations-child">
-					<input id="assoc-3" type="radio" name="tabs">
-					<label for="assoc-3"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
-					<div class="assoc-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
-						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
-					</div>
-				</div>
-				<div class="associations-child">
-					<input id="assoc-4" type="radio" name="tabs">
-					<label for="assoc-4"><img src="https://clic.epfl.ch/img/logo.png"><span>2021 - now<br>Coach, CLIC EPFL</span></label>
-					<div class="assoc-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra.</p>
-						<ul><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li><li>Lorem ipsum dolor sit amet.</li></ul>
-					</div>
-				</div>
-			</div>
-	</div></div>
-	<footer class="container-fluid text-center" id="backgroundFooter">
-		<p>Samuel Hayden | <a class="footerLinks" href="mailto:samuel.hayden@epfl.ch">samuel.hayden@epfl.ch</a> | <a class="footerLinks" href="https://plan.epfl.ch/?room==BC%20402">BC 402</a> | Computer-Human Interaction Lab Learning & Instrution</p>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-	<script src="fixed.js"></script>
+  </div>
+  <script src="https://web2018.epfl.ch/5.1.1/js/elements.min.js"></script>
 </body>
 
 </html>
