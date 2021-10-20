@@ -1,0 +1,27 @@
+.associations-list a{
+  width: 50%;
+ }
+
+.associations-list {
+ display: flex;
+}
+
+.associations-list .card:nth-child(odd) {
+  padding-right: 0.5rem;
+}
+
+.associations-list .card:nth-child(even) {
+  padding-left: 0.5rem;
+}
+
+.associations-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.associations-list img {
+  height: 60px;
+  margin: 0 auto;
+}

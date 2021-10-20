@@ -1,0 +1,50 @@
+ /* About style */
+
+.about {
+  margin: 2rem 0 0;
+  padding: 2rem 0 1rem;
+}
+
+.about p {
+  line-height: 1.8rem;
+}
+
+/* intro style */
+.portrait-name {
+  margin: 5rem 0 0 0;
+  padding: 0.5rem 1rem;
+  position: relative;
+  background: white;
+  left: -6rem;
+}
+
+.portrait-image {
+  overflow: hidden;
+  height: 600px;
+}
+
+.portrait-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portrait-title {
+  margin: 2rem 0;
+} 
+
+.portrait-infos {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.portrait-infos a {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) { 
+  .portrait-name { 
+    left: 0;
+    padding: 0;
+  }
+}

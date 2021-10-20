@@ -1,0 +1,16 @@
+ /* general style */ 
+ .nopadding {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.header-light-content {
+  justify-content: flex-start !important;
+}
+
+@media (max-width: 768px) { 
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
