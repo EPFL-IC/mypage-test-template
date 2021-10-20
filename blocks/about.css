@@ -1,19 +1,50 @@
-/* CSS sheet for the "About" block */
+ /* About style */
+
 .about {
-    background: #fafafa;
-    min-height: 45vh;
+  margin: 2rem 0 0;
+  padding: 2rem 0 1rem;
 }
-.about > p {
-  padding: 5px 15px 5px 5px;
-  text-align: justify;
+
+.about p {
+  line-height: 1.8rem;
 }
-@media handeld, (max-width: 1100px), (max-aspect-ratio: 1/1) {
-  .about > p {
-  text-align: left;
+
+/* intro style */
+.portrait-name {
+  margin: 5rem 0 0 0;
+  padding: 0.5rem 1rem;
+  position: relative;
+  background: white;
+  left: -6rem;
+}
+
+.portrait-image {
+  overflow: hidden;
+  height: 600px;
+}
+
+.portrait-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portrait-title {
+  margin: 2rem 0;
+} 
+
+.portrait-infos {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.portrait-infos a {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) { 
+  .portrait-name { 
+    left: 0;
+    padding: 0;
   }
-}
-@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
-.about {
-  min-height:30vh;
-}
 }

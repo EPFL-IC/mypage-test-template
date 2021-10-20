@@ -1,22 +1,4 @@
-/* CSS sheet for the "Awards" block */
-
 .awards {
-  background: #fafafa;
-  min-height: 40vh;
-}
-.awards ul {
-  margin: 0;
-}
-.awards li p {
-  padding-left: 5px;
-}
-@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1) {
-  .awards {
-    width: 90vw;
-  }
-}
-@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
-.awards {
-  min-height:30vh;
-} 
+  margin: 2rem 0;
+  padding: 2rem 0;
 }

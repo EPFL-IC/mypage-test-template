@@ -1,136 +1,15 @@
-/* Stylesheet for the "projects" block */
 .projects {
-  min-height: 45vh;
-  background: #fafafa;
-  z-index: 9;
-}
-@media (resolution:100dpi), (min-resolution: 100dpi), (-webkit-min-resolution: 100dpi) {
-.projects {
-  min-height:30vh;
-}
-}
-.projects > a > div {
-  transition: all .3s linear;
-  line-height: 1;
-}
-.projects div p {
-  font-size: .8em;
-}
-.projects ul > li {
-  margin-bottom: 3vh;
-}
-.projects ul > li a p {
-  margin: 0;
-  text-decoration-color: rgba(0,0,0,0);
-}
-.projects ul > li a {
-  text-decoration: none;
-}
-.projects > a p {
-  text-decoration-color: rgba(0,0,0,0);
-}
-.projects img {
-  width: 8vw;
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #e6e6e6;
 }
 
-.projects h5 {
-  padding-left: 5px;
-  line-height: 1.25;
-  margin-top: 5px;
-  text-decoration: underline #ff0000;
-}
-.projects > a:hover > div {
-  background: #f4f4f4;
-}
-/* Projects-nav */
-#pro-1 {
-  visibility: visible;
-}
-#pro-2 {
-  visibility: hidden;
-  position: absolute;
-  top: 46.4px;
-}
-#pro-3 {
-  visibility: hidden;
-  position: absolute;
-  top: 46.4px;
-}
-#pro-4 {
-  visibility: hidden;
-  position: absolute;
-  top: 46.4px;
-}
-#pro-5 {
-  visibility: hidden;
-  position: absolute;
-  top: 46.4px;
-}
-#nav-pro-buttons button:nth-of-type(1) {
-  margin-left: 0;
-  background: #ff0000;
-  color: #fff;
-}
-#nav-pro-buttons button {
-  height: 3vh;
-  background: none;
-  border: none;
-  margin-left: 2vw;
-  color: #000;
-  border-radius: 10%;
-  margin-bottom: 2vh;
+.projects-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
-#nav-pro-buttons button:hover {
-  border: #ff0000 1px solid;
-}
-#nav-pro-buttons {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-#nav-pro-buttons button:nth-of-type(1) {
-  margin-left: 0;
-  background: #ff0000;
-  color: #fff;
-}
-#nav-pro-buttons button {
-  height: 3vh;
-  background: none;
-  border: none;
-  margin-left: 2vw;
-  color: #000;
-  border-radius: 10%;
-  margin-bottom: 2vh;
-}
-
-#nav-pro-buttons button:hover {
-  border: #ff0000 1px solid;
-}
-#nav-pro-buttons {
-  display: flex;
-  justify-content: center;
-}
-/* Responsive */
-@media handeld, (max-width: 940px), (max-aspect-ratio: 1/1)  {
-  .projects {
-    width: 90vw;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .projects > h3 {
-    width: 90vw;
-  }
-  .projects > div > a {
-    height: 30vh;
-    width: 40vw;
-    display: block;
-    margin-bottom: 2vh;
-  }
-  .projects img {
-    width: 30vw;
-  }
-  .projects > div {
-    display: block;
-  }
-}
+.projects p {
+  font-size: 1rem;
+} 
