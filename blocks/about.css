@@ -2,7 +2,6 @@
 
 .about {
   margin: 2rem 0 0;
-  padding: 2rem 0 1rem;
 }
 
 .about p {
@@ -31,20 +30,46 @@
 
 .portrait-title {
   margin: 2rem 0;
-} 
+}
 
 .portrait-infos {
   margin: 2rem 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .portrait-infos a {
   margin-right: 0.5rem;
 }
 
-@media (max-width: 768px) { 
-  .portrait-name { 
+@media (max-width: 768px) {
+  .portrait-name {
     left: 0;
     padding: 0;
+    margin-top: 2rem;
+  }
+
+  .portrait-title {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .portrait-infos {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .portrait-infos a {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    min-width: 48%;
+  }
+
+  .portrait-infos a:first-child {
+    min-width: 100%;
+  }
+
+  .portrait-infos-address {
+    font-size: 1rem;
   }
 }

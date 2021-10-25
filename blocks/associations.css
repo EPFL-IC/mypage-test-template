@@ -4,15 +4,9 @@
 
 .associations-list {
  display: flex;
+ flex-wrap: wrap;
 }
 
-.associations-list .card:nth-child(odd) {
-  padding-right: 0.5rem;
-}
-
-.associations-list .card:nth-child(even) {
-  padding-left: 0.5rem;
-}
 
 .associations-logo {
   width: 100%;
@@ -24,4 +18,10 @@
 .associations-list img {
   height: 60px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .associations-list a{
+    min-width: 100%;
+   }
 }

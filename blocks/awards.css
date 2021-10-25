@@ -1,4 +1,7 @@
 .awards {
   margin: 2rem 0;
-  padding: 2rem 0;
+}
+
+.awards .list-group-item {
+  padding-left: 0;
 }
