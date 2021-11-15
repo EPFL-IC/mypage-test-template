@@ -29,7 +29,14 @@
 }
 
 .portrait-title {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
+  font-size: 1.8rem;
+  color: red;
+}
+
+.portrait-lab {
+  max-width: 60%;
+  font-size: 1.3rem;
 }
 
 .portrait-infos {
