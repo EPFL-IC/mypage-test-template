@@ -7,3 +7,12 @@
 .highlight-publications {
   margin: 2rem 0;
 }
+
+.poster .list-group-teaser-thumbnail {
+  flex: auto;
+}
+
+.poster .list-group-teaser-thumbnail,
+.poster .list-group-teaser-thumbnail picture {
+ width: 100%;
+}

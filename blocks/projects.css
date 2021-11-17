@@ -10,4 +10,14 @@
 
 .projects p {
   font-size: 1rem;
-} 
+}
+
+.projects .collapse-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.projects .collapse-images picture{
+  width: 50%;
+  overflow: hidden;
+}

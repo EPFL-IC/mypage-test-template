@@ -18,3 +18,16 @@
     margin: 0 !important;
   }
 }
+
+.header-light .logo {
+  border: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.image-faculity {
+  width: 140px !important;
+  position: relative;
+  left: -1.2rem;
+  bottom: -0.9rem;
+}
