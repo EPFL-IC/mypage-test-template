@@ -1,9 +1,9 @@
  /* general style */
 
- main {
+ body {
    overflow-x: hidden;
  }
- 
+
  .nopadding {
   padding-left: 0 !important;
   margin-left: 0 !important;
