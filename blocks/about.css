@@ -9,13 +9,23 @@
 }
 
 /* intro style */
+.portrait .row {
+  display: flex;
+  align-items: center;
+}
+
+.mypage {
+  font-size: 1.3rem;
+}
 
 .portrait-name {
-  margin: 5rem 0 0 0;
-  padding: 0.5rem 1rem;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
   position: relative;
-  background: white;
   left: -6rem;
+  background: linear-gradient(90deg, #5c2483, #ff0000);
+  color: white;
+  display: inline-block;
 }
 
 .portrait-image {
@@ -51,10 +61,19 @@
 }
 
 @media (max-width: 768px) {
+  .mypage {
+    margin-top: 2rem;
+  }
+
   .portrait-name {
     left: 0;
-    padding: 0;
-    margin-top: 2rem;
+    margin: 0;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .portrait-lab {
+    max-width: 100%;
   }
 
   .portrait-title {
