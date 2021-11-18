@@ -14,8 +14,8 @@
 }
 
 @media (max-width: 768px) {
-  .header-light .header-light-content h1 {
-    margin-top: 0 !important;
+  .header-light .header-light-content .logo{
+    margin: 0 !important;
   }
 
   .nopadding {
