@@ -22,7 +22,8 @@ main {
 }
 
 .header-light-content {
-  justify-content: flex-start !important;
+  width: auto !important;
+  justify-content: left !important;
 }
 
 @media (max-width: 992px) {
@@ -74,7 +75,6 @@ hr {
     font-size: 2rem;
   }
 
-  
   .block {
     margin-top: 3rem;
   }

@@ -118,23 +118,15 @@
 }
 
 /*---- VERSION IMAGE Little ---*/
-.portrait--little .portrait-bg {
-  padding: 650px 0 0 100%;
-  box-sizing: border-box;
-  position: relative;
-  background-color: #eeeeee;
+.portrait--little .row{
+  padding-bottom: 2rem;
 }
 
-.portrait--little .portrait-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60%;
-  height: 400px;
-  transform: translate(-50%, -50%);
-} 
+.portrait--little .portrait-image{
+  max-width: 250px;
+  height: 250px;
+}
 
 .portrait--little .portrait-name {
   left: 0;
 }
-
