@@ -9,11 +9,24 @@
   margin-left: 0 !important;
 }
 
-.header-light-content {
-  justify-content: flex-start !important;
+.withpadding {
+  padding: 10%;
 }
 
-@media (max-width: 768px) {
+header {
+  position: relative;
+}
+
+main {
+  overflow: hidden;
+}
+
+.header-light-content {
+  width: auto !important;
+  justify-content: left !important;
+}
+
+@media (max-width: 992px) {
   .header-light .header-light-content .logo{
     margin: 0 !important;
   }
@@ -34,4 +47,35 @@
   width: 140px !important;
   position: relative;
   bottom: -0.9rem;
+}
+
+dt {
+  min-width: 160px;
+}
+
+
+.footer-light .image-faculity {
+  bottom: 0;
+}
+
+.block {
+  margin-top: 2rem;
+}
+
+hr {
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  hr {
+    margin: 2rem;
+  }
+
+  h3  {
+    font-size: 2rem;
+  }
+
+  .block {
+    margin-top: 3rem;
+  }
 }

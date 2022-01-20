@@ -1,17 +1,16 @@
  /* About style */
 
-.about {
-  margin: 2rem 0 0;
-}
-
 .about p {
   line-height: 1.8rem;
 }
 
 /* intro style */
+.portrait {
+  position: relative;
+}
 .portrait .row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .mypage {
@@ -26,11 +25,12 @@
   background: linear-gradient(90deg, #5c2483, #ff0000);
   color: white;
   display: inline-block;
+  font-size: 2.5rem;
 }
 
 .portrait-image {
   overflow: hidden;
-  height: 600px;
+  height: 650px;
 }
 
 .portrait-image img {
@@ -40,27 +40,51 @@
 }
 
 .portrait-title {
-  margin: 2rem 0 1rem;
+  margin: 2rem 0 0.25rem;
   font-size: 1.8rem;
   color: red;
 }
 
 .portrait-lab {
-  max-width: 60%;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
+  margin-bottom: 0;
 }
 
-.portrait-infos {
-  margin: 2rem 0;
+.portrait .flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portrait-infos a {
-  margin-right: 0.5rem;
+.portrait .flex > * {
+  margin-right: 1rem;
 }
 
-@media (max-width: 768px) {
+.portrait .btn {
+  height: fit-content;
+}
+
+.portrait .definition-list-grid dt:last-of-type,
+.portrait .definition-list-grid dd:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.portrait .social-icon {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+.portrait .social-icon .user{
+  margin-left: 1rem;
+}
+
+.portrait .social-icon:hover {
+  background: #707070;
+  color: white;
+}
+
+@media (max-width: 992px) {
   .mypage {
     margin-top: 2rem;
   }
@@ -71,32 +95,38 @@
     padding: 0.8rem;
     width: 100%;
   }
-
-  .portrait-lab {
-    max-width: 100%;
-  }
-
   .portrait-title {
     margin-top: 1rem;
+    font-size: 1.75rem;
+  }
+
+  .portrait-lab {
     font-size: 1.25rem;
   }
 
-  .portrait-infos {
-    justify-content: space-between;
-    margin-bottom: 1rem;
+  .portrait-name {
+    left: 0;
   }
 
-  .portrait-infos a {
-    margin-right: 0;
-    margin-bottom: 1rem;
-    min-width: 48%;
+  .portrait .social-icon .user{
+    margin-left: 0.25rem;
   }
 
-  .portrait-infos a:first-child {
-    min-width: 100%;
+  .portrait .btn {
+    margin-bottom: 0.25rem;
   }
+}
 
-  .portrait-infos-address {
-    font-size: 1rem;
-  }
+/*---- VERSION IMAGE Little ---*/
+.portrait--little .row{
+  padding-bottom: 2rem;
+}
+
+.portrait--little .portrait-image{
+  max-width: 250px;
+  height: 250px;
+}
+
+.portrait--little .portrait-name {
+  left: 0;
 }

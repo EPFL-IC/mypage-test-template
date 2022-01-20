@@ -1,4 +1,4 @@
-# Project myPage - Student Pages
+# Project IC People - Student Pages
 
 ## Introduction:
 
@@ -59,7 +59,7 @@ Username: Gaspar Username <br />
 Password: Gaspar Password <br />
 index folder: public_html <br />
 
-Copy and paste all the files from mypage-test-template into the public_html folder (examples folder and README are optional).
+Copy and paste all the files from IC mypage-test-template into the public_html folder (examples folder and README are optional).
 
 If you don't know how to acess an SFTP server, here is two tutorials.
 ##### 1.1 Windows/MacOS
