@@ -103,11 +103,17 @@
   .portrait-lab {
     font-size: 1.25rem;
   }
-}
 
-@media (max-width: 992px) {
   .portrait-name {
     left: 0;
+  }
+
+  .portrait .social-icon .user{
+    margin-left: 0.25rem;
+  }
+
+  .portrait .btn {
+    margin-bottom: 0.25rem;
   }
 }
 

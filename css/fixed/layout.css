@@ -17,6 +17,10 @@ header {
   position: relative;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .header-light-content {
   justify-content: flex-start !important;
 }
@@ -68,5 +72,10 @@ hr {
 
   h3  {
     font-size: 2rem;
+  }
+
+  
+  .block {
+    margin-top: 3rem;
   }
 }
