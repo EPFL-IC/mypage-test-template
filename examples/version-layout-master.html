@@ -42,7 +42,7 @@
     </header>
     <section class="container-fluid portrait portrait--medium">
       <div class="row">
-        <div class="col-lg-6 col-xl-4 nopadding">
+        <div class="col-lg-3 col-xl-4 nopadding">
           <div class="portrait-image">
             <picture>
               <!-- Your profile photo --><img src="../img/exemple-profile.jpg" class="img-fluid"
@@ -50,7 +50,7 @@
             </picture>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-6">
+        <div class="col-lg-9 col-xl-6">
           <p class="mypage">IC People</p>
 
           <!-- Your firstname and surname -->
@@ -62,27 +62,26 @@
             Computer-Human Interaction Lab for Learning & Instruction
           </h3>
           <dl class="definition-list definition-list-grid">
-            <dt>Bureau</dt>
-            <dd>
-              <a class="btn btn-sm btn-secondary mr-2" href="">BM 42</a>
-              <a href="tel:+41216939999">+41 21 693 99 99</a><br />
+            <!-- Office Contact -->
+            <dt>EPFL Contact</dt>
+            <dd class="flex">
+              <a href="mailto:samuel.hayden@epfl.ch" class="btn btn-sm btn-primary">samuel.hayden@epfl.ch</a>
             </dd>
-            <dt>Address</dt>
+            <dt>Office</dt>
             <dd>
+              <div class="flex btn-office">
+                <a class="btn btn-sm btn-secondary mr-2" href="#">BM 42</a>
+                <a href="tel:+41216939999">+41 21 693 99 99</a><br />
+              </div>
               <a href="https://www.epfl.ch/labs/chili/contact/" class="portrait-infos-address">EPFL, IC, CHILI,<wbr /> Station 14
                 <br />
                 CH 1015 Lausanne <wbr />Switzerland</a>
             </dd>
-            <!-- Professional Contact -->
-            <dt>EPFL Contact</dt>
-            <dd class="flex">
-              <a href="mailto:samuel.hayden@epfl.ch" class="btn btn-sm btn-primary">samuel.hayden@epfl.ch</a>
-              <a href="tel:+41216939999" class="btn btn-sm btn-secondary">+41 21 693 99 99</a><br />
-            </dd>
+            <!-- Personal Contact -->
             <dt>Personal Contact</dt>
             <dd class="flex">
-              <a href="mailto:samuel.hayden@gmail.com">samuel.hayden@gmail.com</a>
-              <a href="tel:+41799990010">+41 79 999 00 10</a>
+              <a href="mailto:samuel.hayden@gmail.com" class="btn btn-sm btn-primary">samuel.hayden@gmail.com</a>
+              <a href="tel:+41799990010" class="btn btn-sm btn-secondary">+41 79 999 00 10</a>
             </dd>
           </dl>
           <div class="flex">
@@ -236,7 +235,7 @@
       <div class="container">
         <footer class="footer-light">
           <div class="row">
-            <div class="col-6 mx-auto mx-md-0 mb-4 col-md-3 col-lg-2">
+            <div class="mx-auto mx-md-0 mb-4 col-md-3 col-lg-2 logos">
               <a href="www.epfl.ch" target="_blank">
                 <img src="../img/fixed/EPFL_logo.png" alt="Logo EPFL, Ecole polytechnique fédérale de Lausanne"
                   class="img-fluid" />
@@ -249,7 +248,7 @@
             <div class="col-md-9 col-lg-10 mb-4">
               <div class="ml-md-2 ml-lg-5">
                 <ul class="list-inline list-unstyled">
-                  <li class="list-inline-item">Contact</li>
+                  <li class="list-inline-item contact-title">Contact</li>
                   <li class="list-inline-item text-muted pl-3">
                     <small>EPFL CH-1015 Lausanne</small>
                   </li>

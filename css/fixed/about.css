@@ -84,9 +84,45 @@
   color: white;
 }
 
-@media (max-width: 992px) {
+.btn-office {
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+/*---- VERSION IMAGE ---*/
+.portrait--little .row{
+  padding-bottom: 2rem;
+}
+
+.portrait--little .portrait-image {
+  max-width: 250px;
+  height: 250px;
+}
+
+.portrait--little .portrait-name {
+  left: 0;
+}
+
+/*---- Responsive ---*/
+
+@media (max-width: 1024px) {
   .mypage {
     margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  .portrait .flex {
+    justify-content: flex-start;
+  }
+
+  .portrait .flex > * {
+    margin-right: auto;
+  }
+
+  .portrait .social-icon,
+  .portrait .btn,
+  .portrait a {
+    margin-right: 1rem !important;
   }
 
   .portrait-name {
@@ -94,14 +130,15 @@
     margin: 0;
     padding: 0.8rem;
     width: 100%;
+    font-size: 1.75rem;
   }
   .portrait-title {
     margin-top: 1rem;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .portrait-lab {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .portrait-name {
@@ -115,18 +152,37 @@
   .portrait .btn {
     margin-bottom: 0.25rem;
   }
+
+  .portrait-image {
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .about p {
+    line-height: 1.5rem;
+  }
 }
 
-/*---- VERSION IMAGE Little ---*/
-.portrait--little .row{
-  padding-bottom: 2rem;
+@media (max-width: 1024px) and (min-width: 768px) {
+  .flex-image-text {
+    display: flex;
+    justify-content: left;
+  }
+
+  .portrait--little .portrait-image {
+    margin: 0 1rem 0 0;
+  }
 }
 
-.portrait--little .portrait-image{
-  max-width: 250px;
-  height: 250px;
+@media (min-width: 1024px) and (max-width: 1224px) {
+  .flex-image-text {
+    display: flex;
+    justify-content: left;
+  }
+
+  .portrait-image {
+    max-width: 100%;
+    height: 100%;
+  }
 }
 
-.portrait--little .portrait-name {
-  left: 0;
-}
