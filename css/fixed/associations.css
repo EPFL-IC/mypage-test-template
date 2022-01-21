@@ -20,7 +20,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .associations-list a{
     min-width: 100%;
    }

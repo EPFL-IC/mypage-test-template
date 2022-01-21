@@ -26,14 +26,14 @@ main {
   justify-content: left !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1224px) {
   .header-light .header-light-content .logo{
     margin: 0 !important;
   }
 
   .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 3% !important;
+    margin: auto !important;
   }
 }
 
@@ -53,6 +53,12 @@ dt {
   min-width: 160px;
 }
 
+@media (max-width: 1224px) {
+  dt {
+    min-width: 80px;
+  }
+}
+
 
 .footer-light .image-faculity {
   bottom: 0;
@@ -66,16 +72,56 @@ hr {
   margin: 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   hr {
-    margin: 2rem;
+    margin: 2rem 0 0;
   }
 
   h3  {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .block {
-    margin-top: 3rem;
+    margin-top: 2rem;
+  }
+
+  .picture .img-fluid {
+    max-width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-light-socials,
+  .logos,
+  .footer-light .list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .footer-light-socials span,
+  .footer-light-socials {
+    padding-top: 1rem;
+  }
+
+  .footer-legal-links {
+    margin-bottom: 1rem;
+  }
+
+  .footer-light .logos a:nth-child(2) img {
+    top: 20px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .footer-light .list-inline-item {
+    padding: 0 !important;
+    margin-right: 1rem;
+  }
+
+  .logos a{
+    width: 50%;
   }
 }

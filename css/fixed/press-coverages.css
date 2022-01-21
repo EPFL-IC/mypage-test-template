@@ -19,7 +19,7 @@
   border: 1px solid rgba(33, 33, 33, 0.125);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .press-coverage {
     margin-bottom: 2rem;
   }
