@@ -72,6 +72,10 @@ hr {
   margin: 0;
 }
 
+.footer-light-socials {
+  border-top: none;
+}
+
 @media (max-width: 1024px) {
   hr {
     margin: 2rem 0 0;
