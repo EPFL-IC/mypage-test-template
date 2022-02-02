@@ -1,12 +1,7 @@
 .publications,
 .news {
   padding-top: 2rem;
-  margin-top: 2rem;
-  background: #e6e6e6;
-}
-
-.news {
-  background: #fff;
+  margin: 2rem 0;
 }
 
 .poster .list-group-teaser-thumbnail {

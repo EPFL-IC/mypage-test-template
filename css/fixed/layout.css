@@ -21,6 +21,10 @@ main {
   overflow: hidden;
 }
 
+.footer-light > .row{
+  align-items: center;
+}
+
 .header-light-content {
   width: auto !important;
   justify-content: left !important;
