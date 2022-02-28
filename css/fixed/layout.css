@@ -57,6 +57,10 @@ dt {
   min-width: 160px;
 }
 
+.footer-light .image-faculity {
+  right: -2px;
+}
+
 @media (max-width: 1224px) {
   dt {
     min-width: 80px;
@@ -98,7 +102,7 @@ hr {
     max-width: auto;
   }
   .footer-light .image-faculity {
-    right: 0;
+    right: -1px;
   }
 }
 
