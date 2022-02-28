@@ -97,6 +97,9 @@ hr {
   .picture .img-fluid {
     max-width: auto;
   }
+  .footer-light .image-faculity {
+    right: 0;
+  }
 }
 
 @media (max-width: 768px) {
